@@ -1,11 +1,11 @@
 Year,Province,Area council,Sex,GeoCode,Value
 2016,Torba,torres,Male,VU01055,505
-2016,Torba,ureparapara,Male,,239
-2016,Torba,motalava,Male,,810
-2016,Torba,vanua lava,Male,,1634
-2016,Torba,mota,Male,,362
-2016,Torba,gaua,Male,,1324
-2016,Torba,merelava,Male,,279
+2016,Torba,ureparapara,Male,VU01066,239
+2016,Torba,motalava,Male,VU01063,810
+2016,Torba,vanua lava,Male,VU01054,1634
+2016,Torba,mota,Male,VU01064,362
+2016,Torba,gaua,Male,VU01053,1324
+2016,Torba,merelava,Male,VU01065,279
 2016,Sanma,north west santo,Male,,844
 2016,Sanma,north santo,Male,,2472
 2016,Sanma,west santo,Male,,1536
@@ -15,7 +15,7 @@ Year,Province,Area council,Sex,GeoCode,Value
 2016,Sanma,canal - fanafo,Male,,2618
 2016,Sanma,luganville,Male,,8344
 2016,Sanma,west malo,Male,,1208
-2016,Sanma,east malo,Male,,1048
+2016,Sanma,east malo,Male,VU02042,1048
 2016,Penama,west ambae,Male,,2039
 2016,Penama,north ambae,Male,,1944
 2016,Penama,east ambae,Male,,1227
@@ -66,12 +66,12 @@ Year,Province,Area council,Sex,GeoCode,Value
 2016,Tafea,futuna,Male,,336
 2016,Tafea,aneityum,Male,,745
 2016,Torba,torres,female,VU01055,517
-2016,Torba,ureparapara,female,,217
-2016,Torba,motalava,female,,868
-2016,Torba,vanua lava,female,,1525
-2016,Torba,mota,female,,320
-2016,Torba,gaua,female,,1252
-2016,Torba,merelava,female,,309
+2016,Torba,ureparapara,female,VU01066,217
+2016,Torba,motalava,female,VU01063,868
+2016,Torba,vanua lava,female,VU01054,1525
+2016,Torba,mota,female,VU01064,320
+2016,Torba,gaua,female,VU01053,1252
+2016,Torba,merelava,female,VU01065,309
 2016,Sanma,north west santo,female,,853
 2016,Sanma,north santo,female,,2275
 2016,Sanma,west santo,female,,1536
