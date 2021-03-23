@@ -66,12 +66,12 @@ Year,Province,Area council,Sex,GeoCode,Value
 2016,Tafea,futuna,Male,,336
 2016,Tafea,aneityum,Male,,745
 2016,Torba,torres,female,VU01055,517
-2016,Torba,ureparapara,female,,217
-2016,Torba,motalava,female,,868
-2016,Torba,vanua lava,female,,1525
-2016,Torba,mota,female,,320
-2016,Torba,gaua,female,,1252
-2016,Torba,merelava,female,,309
+2016,Torba,ureparapara,female,VU01066,217
+2016,Torba,motalava,female,VU01063,868
+2016,Torba,vanua lava,female,VU01054,1525
+2016,Torba,mota,female,VU01064,320
+2016,Torba,gaua,female,VU01053,1252
+2016,Torba,merelava,female,VU01065,309
 2016,Sanma,north west santo,female,,853
 2016,Sanma,north santo,female,,2275
 2016,Sanma,west santo,female,,1536
