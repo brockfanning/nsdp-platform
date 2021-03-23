@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: '/vanuatu-nsdp/en',
+  remoteDataBaseUrl: '/nsdp-platform/en',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -122,13 +122,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/vanuatu-nsdp/assets/js/lib/classList.js"></script>
+        <script src="/nsdp-platform/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/vanuatu-nsdp/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/vanuatu-nsdp/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/nsdp-platform/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/nsdp-platform/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vanuatu-nsdp/assets/css/style.css?v=20210309215822">
+        <link rel="stylesheet" href="/nsdp-platform/assets/css/style.css?v=20210323222705">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -171,8 +171,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/vanuatu-nsdp/" id="home">
-    <img src="/vanuatu-nsdp/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/nsdp-platform/" id="home">
+    <img src="/nsdp-platform/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul></div>
@@ -185,15 +185,15 @@ var translations = {
         aria-haspopup="true">
         <button data-target="menu-mobile" aria-expanded="false">Menu</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/vanuatu-nsdp/goals">Goals</a>
+    <a href="/nsdp-platform/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/reporting-status">Reporting Status</a>
+    <a href="/nsdp-platform/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/about">About</a>
+    <a href="/nsdp-platform/about">About</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/faq">FAQ</a>
+    <a href="/nsdp-platform/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/news">Updates</a>
+    <a href="/nsdp-platform/news">Updates</a>
 </li>
 </ul>
 
@@ -203,7 +203,7 @@ var translations = {
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/vanuatu-nsdp/search">
+  <form action="/nsdp-platform/search">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -213,7 +213,7 @@ var translations = {
     </li>
 </ul>
       <div id="search" class="menu-target">
-  <form action="/vanuatu-nsdp/search">
+  <form action="/nsdp-platform/search">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -221,15 +221,15 @@ var translations = {
 </div>
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/vanuatu-nsdp/goals">Goals</a>
+    <a href="/nsdp-platform/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/reporting-status">Reporting Status</a>
+    <a href="/nsdp-platform/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/about">About</a>
+    <a href="/nsdp-platform/about">About</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/faq">FAQ</a>
+    <a href="/nsdp-platform/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/news">Updates</a>
+    <a href="/nsdp-platform/news">Updates</a>
 </li>
 </ul>
 
@@ -320,10 +320,10 @@ var translations = {
   
 <ol class="breadcrumb">
   
-  <li><a href="/vanuatu-nsdp/">Home</a></li>
-  <li><a href="/vanuatu-nsdp/goals">Goals</a></li>
+  <li><a href="/nsdp-platform/">Home</a></li>
+  <li><a href="/nsdp-platform/goals">Goals</a></li>
   
-  <li><a href="/vanuatu-nsdp/ECO4" title="An enabling business environment, creating opportunities and employment for entrepreneurs throughout Vanuatu">Economy 4</a></li>
+  <li><a href="/nsdp-platform/ECO4" title="An enabling business environment, creating opportunities and employment for entrepreneurs throughout Vanuatu">Economy 4</a></li>
   
 </ol>
 
@@ -332,13 +332,13 @@ var translations = {
     
 <div class="previous-next-links row">
     <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
-        <a class="btn btn-primary" href="/vanuatu-nsdp/ECO4-1-1" aria-labelledby="previous-link">
+        <a class="btn btn-primary" href="/nsdp-platform/ECO4-1-1" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
             <span id="previous-link" class="hidden-sm hidden-xs">Previous indicator</span>
         </a>
     </div>
     <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
-        <a class="btn btn-primary" href="/vanuatu-nsdp/ECO4-3-1" aria-labelledby="next-link">
+        <a class="btn btn-primary" href="/nsdp-platform/ECO4-3-1" aria-labelledby="next-link">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
             <span id="next-link" class="hidden-sm hidden-xs">Next indicator</span>
         </a>
@@ -353,8 +353,8 @@ var translations = {
     <div class="row">
       
       <div class="col-xs-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-        <a href="/vanuatu-nsdp/ECO4" title="View this goal's indicator list">
-          <img src="/vanuatu-nsdp/assets/img/goals/en/ECO4.jpg" alt="Economy 4 - Goal ECO4" id="goal-ECO4" class="goal-icon-image goal-icon-image-jpg"/>
+        <a href="/nsdp-platform/ECO4" title="View this goal's indicator list">
+          <img src="/nsdp-platform/assets/img/goals/en/ECO4.jpg" alt="Economy 4 - Goal ECO4" id="goal-ECO4" class="goal-icon-image goal-icon-image-jpg"/>
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10 indicator-details">
@@ -414,7 +414,7 @@ var translations = {
     <p>Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.</p>
   </span>
   <div id="fields">
-    <p class="async-loading" data-img="/vanuatu-nsdp/assets/img/loading-small.gif"></p>
+    <p class="async-loading" data-img="/nsdp-platform/assets/img/loading-small.gif"></p>
   </div>
 </div>
 
@@ -427,9 +427,9 @@ var translations = {
 
   <div id="datatables">
 
-    <a href="/vanuatu-nsdp/en/headline/ECO4-2-1.csv" class="btn btn-primary btn-download" download="indicator_ECO4-2-1.csv" tabindex="0" role="button">Download Headline CSV</a>
+    <a href="/nsdp-platform/en/headline/ECO4-2-1.csv" class="btn btn-primary btn-download" download="indicator_ECO4-2-1.csv" tabindex="0" role="button">Download Headline CSV</a>
 
-    <a href="/vanuatu-nsdp/en/data/ECO4-2-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_ECO4-2-1.csv' tabindex='0' role='button'>Download Source CSV</a>
+    <a href="/nsdp-platform/en/data/ECO4-2-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_ECO4-2-1.csv' tabindex='0' role='button'>Download Source CSV</a>
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
@@ -495,7 +495,7 @@ var translations = {
 
 <section>
 
-  <p class="async-loading" data-img="/vanuatu-nsdp/assets/img/loading-small.gif"></p>
+  <p class="async-loading" data-img="/nsdp-platform/assets/img/loading-small.gif"></p>
 
   <div class="async-loaded spacer medium" style="display:none;">
 
@@ -620,18 +620,8 @@ opensdg.annotationPresets = {
 // Add a chart alteration to support the chart_annotations metadata field.
 opensdg.chartConfigAlter(function(config, info) {
     if (info.graphAnnotations && info.graphAnnotations.length > 0) {
-        var annotations = info.graphAnnotations.filter(function(annotation) {
-            var match = true;
-            if (match && info.selectedUnit) {
-                match = (info.selectedUnit === annotation.unit);
-            }
-            if (match && info.selectedSeries) {
-                match = (info.selectedSeries === annotation.series);
-            }
-            return match;
-        });
         // Apply some helpers/fixes to the annotations.
-        annotations = annotations.map(function(annotation) {
+        var annotations = info.graphAnnotations.map(function(annotation) {
             // Apply the "common" preset.
             if (opensdg.annotationPresets.common) {
                 annotation = $.extend(true, {}, opensdg.annotationPresets.common, annotation);
@@ -723,6 +713,9 @@ opensdg.chartConfigAlter(function(config, info) {
                 $('#chart-annotations').text(newDescription);
             }
         }
+    }
+    else if (config.options && config.options.annotation) {
+        delete config.options.annotation;
     }
 });
 </script>
@@ -1153,7 +1146,7 @@ data-event-label="Change to indicator.sources tab"
   
   
   
-  <a class="btn btn-primary" href="/vanuatu-nsdp/config/ECO4-2-1">Edit configuration</a>
+  <a class="btn btn-primary" href="/nsdp-platform/config/ECO4-2-1">Edit configuration</a>
   
 </div>
 
@@ -1191,13 +1184,13 @@ data-event-label="Change to indicator.sources tab"
                 
                 </li>
               <li>
-                <a href="/vanuatu-nsdp/about/cookies-and-privacy/">Cookies</a>
+                <a href="/nsdp-platform/about/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               
             
             
-            <li><a href="/vanuatu-nsdp/config">Configuration</a></li>
+            <li><a href="/nsdp-platform/config">Configuration</a></li>
             </ul>
         </div>
       </div>
@@ -1230,12 +1223,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vanuatu-nsdp/assets/js/sdg.js?v=20210309215822'></script>
+<script src='/nsdp-platform/assets/js/sdg.js?v=20210323222705'></script>
 
 
     
     
-    <script src="/vanuatu-nsdp/assets/js/custom.js?v=20210309215822"></script><script>
+    <script src="/nsdp-platform/assets/js/custom.js?v=20210323222705"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: '/vanuatu-nsdp/en',
+  remoteDataBaseUrl: '/nsdp-platform/en',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -117,13 +117,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/vanuatu-nsdp/assets/js/lib/classList.js"></script>
+        <script src="/nsdp-platform/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/vanuatu-nsdp/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/vanuatu-nsdp/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/nsdp-platform/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/nsdp-platform/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vanuatu-nsdp/assets/css/style.css?v=20210309215822">
+        <link rel="stylesheet" href="/nsdp-platform/assets/css/style.css?v=20210323222705">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -166,8 +166,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/vanuatu-nsdp/" id="home">
-    <img src="/vanuatu-nsdp/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/nsdp-platform/" id="home">
+    <img src="/nsdp-platform/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul></div>
@@ -180,15 +180,15 @@ var translations = {
         aria-haspopup="true">
         <button data-target="menu-mobile" aria-expanded="false">Menu</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/vanuatu-nsdp/goals">Goals</a>
+    <a href="/nsdp-platform/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/reporting-status">Reporting Status</a>
+    <a href="/nsdp-platform/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/about">About</a>
+    <a href="/nsdp-platform/about">About</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/faq">FAQ</a>
+    <a href="/nsdp-platform/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/news">Updates</a>
+    <a href="/nsdp-platform/news">Updates</a>
 </li>
 </ul>
 
@@ -198,7 +198,7 @@ var translations = {
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/vanuatu-nsdp/search">
+  <form action="/nsdp-platform/search">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -208,7 +208,7 @@ var translations = {
     </li>
 </ul>
       <div id="search" class="menu-target">
-  <form action="/vanuatu-nsdp/search">
+  <form action="/nsdp-platform/search">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -216,15 +216,15 @@ var translations = {
 </div>
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/vanuatu-nsdp/goals">Goals</a>
+    <a href="/nsdp-platform/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/reporting-status">Reporting Status</a>
+    <a href="/nsdp-platform/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/about">About</a>
+    <a href="/nsdp-platform/about">About</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/faq">FAQ</a>
+    <a href="/nsdp-platform/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/news">Updates</a>
+    <a href="/nsdp-platform/news">Updates</a>
 </li>
 </ul>
 
@@ -240,8 +240,8 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/vanuatu-nsdp/">Home</a></li>
-  <li><a href="/vanuatu-nsdp/goals">Goals</a></li>
+  <li><a href="/nsdp-platform/">Home</a></li>
+  <li><a href="/nsdp-platform/goals">Goals</a></li>
   
   
 </ol>
@@ -250,13 +250,13 @@ var translations = {
     
 <div class="previous-next-links row">
     <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
-        <a class="btn btn-primary" href="/vanuatu-nsdp/SOC5" aria-labelledby="previous-link">
+        <a class="btn btn-primary" href="/nsdp-platform/SOC5" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
             <span id="previous-link" class="hidden-sm hidden-xs">Previous goal</span>
         </a>
     </div>
     <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
-        <a class="btn btn-primary" href="/vanuatu-nsdp/ECO1" aria-labelledby="next-link">
+        <a class="btn btn-primary" href="/nsdp-platform/ECO1" aria-labelledby="next-link">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
             <span id="next-link" class="hidden-sm hidden-xs">Next goal</span>
         </a>
@@ -271,7 +271,7 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-        <img src="/vanuatu-nsdp/assets/img/goals/en/SOC6.jpg" alt="Society 6 - Goal SOC6" id="goal-SOC6" class="goal-icon-image goal-icon-image-jpg" />
+        <img src="/nsdp-platform/assets/img/goals/en/SOC6.jpg" alt="Society 6 - Goal SOC6" id="goal-SOC6" class="goal-icon-image goal-icon-image-jpg" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>Society 6: A dynamic public sector with good governance principles and strong institutions delivering the support and services expected by all citizens of Vanuatu</h1>
@@ -311,20 +311,19 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           SOC6.1.1
-          <span class="status notstarted">
-            Exploring data sources
-          </span>
+          
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
         </span>
-        <a href="/vanuatu-nsdp/SOC6-1-1">
+        <a href="/nsdp-platform/SOC6-1-1">
           Reduction in annual Employment Disciplinary Board decisions
         </a>
         
@@ -335,20 +334,19 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           SOC6.1.2
-          <span class="status notstarted">
-            Exploring data sources
-          </span>
+          
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
         </span>
-        <a href="/vanuatu-nsdp/SOC6-1-2">
+        <a href="/nsdp-platform/SOC6-1-2">
           Annual number of public officials receiving relevant qualifications through VIPAM and other government programs
         </a>
         
@@ -359,20 +357,19 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           SOC6.1.3
-          <span class="status notstarted">
-            Exploring data sources
-          </span>
+          
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
         </span>
-        <a href="/vanuatu-nsdp/SOC6-1-3">
+        <a href="/nsdp-platform/SOC6-1-3">
           Reduction in level of subsidies/grants to SOEs
         </a>
         
@@ -395,20 +392,19 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           SOC6.2.1
-          <span class="status notstarted">
-            Exploring data sources
-          </span>
+          
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
         </span>
-        <a href="/vanuatu-nsdp/SOC6-2-1">
+        <a href="/nsdp-platform/SOC6-2-1">
           Proportion of SOEs and Statutory bodies submitting annual reports to their boards of directors
         </a>
         
@@ -431,20 +427,19 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           SOC6.3.1
-          <span class="status complete">
-            Reported online
-          </span>
+          
+
+
+<span class="status complete">
+    Reported online
+</span>
+
         </span>
-        <a href="/vanuatu-nsdp/SOC6-3-1">
+        <a href="/nsdp-platform/SOC6-3-1">
           Proportion of eligible population reporting to have voted in last election
         </a>
         
@@ -455,20 +450,19 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           SOC6.3.2
-          <span class="status notstarted">
-            Exploring data sources
-          </span>
+          
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
         </span>
-        <a href="/vanuatu-nsdp/SOC6-3-2">
+        <a href="/nsdp-platform/SOC6-3-2">
           Proportion of population with an overall positive assessment of their local elected officials
         </a>
         
@@ -479,20 +473,19 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           SOC6.3.3
-          <span class="status notstarted">
-            Exploring data sources
-          </span>
+          
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
         </span>
-        <a href="/vanuatu-nsdp/SOC6-3-3">
+        <a href="/nsdp-platform/SOC6-3-3">
           Number of MPs submitting annual financial accountability report
         </a>
         
@@ -515,20 +508,19 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           SOC6.4.1
-          <span class="status notstarted">
-            Exploring data sources
-          </span>
+          
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
         </span>
-        <a href="/vanuatu-nsdp/SOC6-4-1">
+        <a href="/nsdp-platform/SOC6-4-1">
           Proportion of BP objectives met as reported in department ARs
         </a>
         
@@ -551,20 +543,19 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           SOC6.5.1
-          <span class="status notstarted">
-            Exploring data sources
-          </span>
+          
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
         </span>
-        <a href="/vanuatu-nsdp/SOC6-5-1">
+        <a href="/nsdp-platform/SOC6-5-1">
           Change in annual budget going to Provinces, Municipalities towards operations/programs (Devolution of funding authority)
         </a>
         
@@ -575,20 +566,19 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           SOC6.5.2
-          <span class="status notstarted">
-            Exploring data sources
-          </span>
+          
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
         </span>
-        <a href="/vanuatu-nsdp/SOC6-5-2">
+        <a href="/nsdp-platform/SOC6-5-2">
           SOD 6.5.2 Proportion of provinces with up-to-date three year “rolling” plans submitted to DLA
         </a>
         
@@ -611,20 +601,19 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           SOC6.6.1
-          <span class="status notstarted">
-            Exploring data sources
-          </span>
+          
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
         </span>
-        <a href="/vanuatu-nsdp/SOC6-6-1">
+        <a href="/nsdp-platform/SOC6-6-1">
           SOD 6.6.1 Proportion of declared physical planning areas that have a physical plan
         </a>
         
@@ -647,20 +636,19 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           SOC6.7.1
-          <span class="status complete">
-            Reported online
-          </span>
+          
+
+
+<span class="status complete">
+    Reported online
+</span>
+
         </span>
-        <a href="/vanuatu-nsdp/SOC6-7-1">
+        <a href="/nsdp-platform/SOC6-7-1">
           Proportion of population utilising media outlets for news including: newspapers, mobile phones, radio, television, and internet
         </a>
         
@@ -671,20 +659,19 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           SOC6.7.2
-          <span class="status notstarted">
-            Exploring data sources
-          </span>
+          
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
         </span>
-        <a href="/vanuatu-nsdp/SOC6-7-2">
+        <a href="/nsdp-platform/SOC6-7-2">
           Proportion of data collected from requests acted upon by RTI officers in each government agency
         </a>
         
@@ -707,20 +694,19 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           SOC6.8.1
-          <span class="status notstarted">
-            Exploring data sources
-          </span>
+          
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
         </span>
-        <a href="/vanuatu-nsdp/SOC6-8-1">
+        <a href="/nsdp-platform/SOC6-8-1">
           Percentage of aid the government sector reported on the government’s budget
         </a>
         
@@ -731,20 +717,19 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           SOC6.8.2
-          <span class="status notstarted">
-            Exploring data sources
-          </span>
+          
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
         </span>
-        <a href="/vanuatu-nsdp/SOC6-8-2">
+        <a href="/nsdp-platform/SOC6-8-2">
           Percentage of aid for the government sector using Vanuatu government PFM systems
         </a>
         
@@ -755,20 +740,19 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           SOC6.8.3
-          <span class="status notstarted">
-            Exploring data sources
-          </span>
+          
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
         </span>
-        <a href="/vanuatu-nsdp/SOC6-8-3">
+        <a href="/nsdp-platform/SOC6-8-3">
           Percentage of aid for the government sector using Vanuatu government procurement systems
         </a>
         
@@ -791,20 +775,19 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           SOC6.9.1
-          <span class="status notstarted">
-            Exploring data sources
-          </span>
+          
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
         </span>
-        <a href="/vanuatu-nsdp/SOC6-9-1">
+        <a href="/nsdp-platform/SOC6-9-1">
           NSDP data reviewed annually
         </a>
         
@@ -815,20 +798,19 @@ var translations = {
       
       
       
-      
-      
-      
-      
-      
 
       <div class="col-md-12  goal-indicator">
         <span class="indicator-card-number">
           SOC6.9.2
-          <span class="status complete">
-            Reported online
-          </span>
+          
+
+
+<span class="status complete">
+    Reported online
+</span>
+
         </span>
-        <a href="/vanuatu-nsdp/SOC6-9-2">
+        <a href="/nsdp-platform/SOC6-9-2">
           Percentage of NSDS strategic objectives achieved
         </a>
         
@@ -863,13 +845,13 @@ var translations = {
                 
                 </li>
               <li>
-                <a href="/vanuatu-nsdp/about/cookies-and-privacy/">Cookies</a>
+                <a href="/nsdp-platform/about/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               
             
             
-            <li><a href="/vanuatu-nsdp/config">Configuration</a></li>
+            <li><a href="/nsdp-platform/config">Configuration</a></li>
             </ul>
         </div>
       </div>
@@ -902,12 +884,12 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vanuatu-nsdp/assets/js/sdg.js?v=20210309215822'></script>
+<script src='/nsdp-platform/assets/js/sdg.js?v=20210323222705'></script>
 
 
     
     
-    <script src="/vanuatu-nsdp/assets/js/custom.js?v=20210309215822"></script><script>
+    <script src="/nsdp-platform/assets/js/custom.js?v=20210323222705"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: '/vanuatu-nsdp/en',
+  remoteDataBaseUrl: '/nsdp-platform/en',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -117,13 +117,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/vanuatu-nsdp/assets/js/lib/classList.js"></script>
+        <script src="/nsdp-platform/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/vanuatu-nsdp/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/vanuatu-nsdp/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/nsdp-platform/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/nsdp-platform/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vanuatu-nsdp/assets/css/style.css?v=20210309215822">
+        <link rel="stylesheet" href="/nsdp-platform/assets/css/style.css?v=20210323222705">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -166,8 +166,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/vanuatu-nsdp/" id="home">
-    <img src="/vanuatu-nsdp/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/nsdp-platform/" id="home">
+    <img src="/nsdp-platform/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul></div>
@@ -180,15 +180,15 @@ var translations = {
         aria-haspopup="true">
         <button data-target="menu-mobile" aria-expanded="false">Menu</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/vanuatu-nsdp/goals">Goals</a>
+    <a href="/nsdp-platform/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/reporting-status">Reporting Status</a>
+    <a href="/nsdp-platform/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/about">About</a>
+    <a href="/nsdp-platform/about">About</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/faq">FAQ</a>
+    <a href="/nsdp-platform/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/news">Updates</a>
+    <a href="/nsdp-platform/news">Updates</a>
 </li>
 </ul>
 
@@ -198,7 +198,7 @@ var translations = {
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/vanuatu-nsdp/search">
+  <form action="/nsdp-platform/search">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -208,7 +208,7 @@ var translations = {
     </li>
 </ul>
       <div id="search" class="menu-target">
-  <form action="/vanuatu-nsdp/search">
+  <form action="/nsdp-platform/search">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -216,15 +216,15 @@ var translations = {
 </div>
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/vanuatu-nsdp/goals">Goals</a>
+    <a href="/nsdp-platform/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/reporting-status">Reporting Status</a>
+    <a href="/nsdp-platform/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/about">About</a>
+    <a href="/nsdp-platform/about">About</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/faq">FAQ</a>
+    <a href="/nsdp-platform/faq">FAQ</a>
 </li><li class="nav-link ">
-    <a href="/vanuatu-nsdp/news">Updates</a>
+    <a href="/nsdp-platform/news">Updates</a>
 </li>
 </ul>
 
@@ -293,8 +293,8 @@ var translations = {
             
             
             <div class="goal-tile">
-                <a href="/vanuatu-nsdp/SOC1">
-                    <img src="/vanuatu-nsdp/assets/img/goals/en/SOC1.jpg" id="goal-SOC1" alt="Society 1 - Goal SOC1" class="goal-icon-image goal-icon-image-jpg"/>
+                <a href="/nsdp-platform/SOC1">
+                    <img src="/nsdp-platform/assets/img/goals/en/SOC1.jpg" id="goal-SOC1" alt="Society 1 - Goal SOC1" class="goal-icon-image goal-icon-image-jpg"/>
                 </a>
             </div>
             
@@ -302,8 +302,8 @@ var translations = {
             
             
             <div class="goal-tile">
-                <a href="/vanuatu-nsdp/SOC2">
-                    <img src="/vanuatu-nsdp/assets/img/goals/en/SOC2.jpg" id="goal-SOC2" alt="Society 2 - Goal SOC2" class="goal-icon-image goal-icon-image-jpg"/>
+                <a href="/nsdp-platform/SOC2">
+                    <img src="/nsdp-platform/assets/img/goals/en/SOC2.jpg" id="goal-SOC2" alt="Society 2 - Goal SOC2" class="goal-icon-image goal-icon-image-jpg"/>
                 </a>
             </div>
             
@@ -311,8 +311,8 @@ var translations = {
             
             
             <div class="goal-tile">
-                <a href="/vanuatu-nsdp/SOC3">
-                    <img src="/vanuatu-nsdp/assets/img/goals/en/SOC3.jpg" id="goal-SOC3" alt="Society 3 - Goal SOC3" class="goal-icon-image goal-icon-image-jpg"/>
+                <a href="/nsdp-platform/SOC3">
+                    <img src="/nsdp-platform/assets/img/goals/en/SOC3.jpg" id="goal-SOC3" alt="Society 3 - Goal SOC3" class="goal-icon-image goal-icon-image-jpg"/>
                 </a>
             </div>
             
@@ -320,8 +320,8 @@ var translations = {
             
             
             <div class="goal-tile">
-                <a href="/vanuatu-nsdp/SOC4">
-                    <img src="/vanuatu-nsdp/assets/img/goals/en/SOC4.jpg" id="goal-SOC4" alt="Society 4 - Goal SOC4" class="goal-icon-image goal-icon-image-jpg"/>
+                <a href="/nsdp-platform/SOC4">
+                    <img src="/nsdp-platform/assets/img/goals/en/SOC4.jpg" id="goal-SOC4" alt="Society 4 - Goal SOC4" class="goal-icon-image goal-icon-image-jpg"/>
                 </a>
             </div>
             
@@ -329,8 +329,8 @@ var translations = {
             
             
             <div class="goal-tile">
-                <a href="/vanuatu-nsdp/SOC5">
-                    <img src="/vanuatu-nsdp/assets/img/goals/en/SOC5.jpg" id="goal-SOC5" alt="Society 5 - Goal SOC5" class="goal-icon-image goal-icon-image-jpg"/>
+                <a href="/nsdp-platform/SOC5">
+                    <img src="/nsdp-platform/assets/img/goals/en/SOC5.jpg" id="goal-SOC5" alt="Society 5 - Goal SOC5" class="goal-icon-image goal-icon-image-jpg"/>
                 </a>
             </div>
             
@@ -338,8 +338,8 @@ var translations = {
             
             
             <div class="goal-tile">
-                <a href="/vanuatu-nsdp/SOC6">
-                    <img src="/vanuatu-nsdp/assets/img/goals/en/SOC6.jpg" id="goal-SOC6" alt="Society 6 - Goal SOC6" class="goal-icon-image goal-icon-image-jpg"/>
+                <a href="/nsdp-platform/SOC6">
+                    <img src="/nsdp-platform/assets/img/goals/en/SOC6.jpg" id="goal-SOC6" alt="Society 6 - Goal SOC6" class="goal-icon-image goal-icon-image-jpg"/>
                 </a>
             </div>
             
@@ -363,8 +363,8 @@ var translations = {
             
             
             <div class="goal-tile">
-                <a href="/vanuatu-nsdp/ENV1">
-                    <img src="/vanuatu-nsdp/assets/img/goals/en/ENV1.jpg" id="goal-ENV1" alt="Environment 1 - Goal ENV1" class="goal-icon-image goal-icon-image-jpg"/>
+                <a href="/nsdp-platform/ENV1">
+                    <img src="/nsdp-platform/assets/img/goals/en/ENV1.jpg" id="goal-ENV1" alt="Environment 1 - Goal ENV1" class="goal-icon-image goal-icon-image-jpg"/>
                 </a>
             </div>
             
@@ -372,8 +372,8 @@ var translations = {
             
             
             <div class="goal-tile">
-                <a href="/vanuatu-nsdp/ENV2">
-                    <img src="/vanuatu-nsdp/assets/img/goals/en/ENV2.jpg" id="goal-ENV2" alt="Enviornment 2 - Goal ENV2" class="goal-icon-image goal-icon-image-jpg"/>
+                <a href="/nsdp-platform/ENV2">
+                    <img src="/nsdp-platform/assets/img/goals/en/ENV2.jpg" id="goal-ENV2" alt="Enviornment 2 - Goal ENV2" class="goal-icon-image goal-icon-image-jpg"/>
                 </a>
             </div>
             
@@ -381,8 +381,8 @@ var translations = {
             
             
             <div class="goal-tile">
-                <a href="/vanuatu-nsdp/ENV3">
-                    <img src="/vanuatu-nsdp/assets/img/goals/en/ENV3.jpg" id="goal-ENV3" alt="Environment 3 - Goal ENV3" class="goal-icon-image goal-icon-image-jpg"/>
+                <a href="/nsdp-platform/ENV3">
+                    <img src="/nsdp-platform/assets/img/goals/en/ENV3.jpg" id="goal-ENV3" alt="Environment 3 - Goal ENV3" class="goal-icon-image goal-icon-image-jpg"/>
                 </a>
             </div>
             
@@ -390,8 +390,8 @@ var translations = {
             
             
             <div class="goal-tile">
-                <a href="/vanuatu-nsdp/ENV4">
-                    <img src="/vanuatu-nsdp/assets/img/goals/en/ENV4.jpg" id="goal-ENV4" alt="Environment 4 - Goal ENV4" class="goal-icon-image goal-icon-image-jpg"/>
+                <a href="/nsdp-platform/ENV4">
+                    <img src="/nsdp-platform/assets/img/goals/en/ENV4.jpg" id="goal-ENV4" alt="Environment 4 - Goal ENV4" class="goal-icon-image goal-icon-image-jpg"/>
                 </a>
             </div>
             
@@ -399,8 +399,8 @@ var translations = {
             
             
             <div class="goal-tile">
-                <a href="/vanuatu-nsdp/ENV5">
-                    <img src="/vanuatu-nsdp/assets/img/goals/en/ENV5.jpg" id="goal-ENV5" alt="Environment 5 - Goal ENV5" class="goal-icon-image goal-icon-image-jpg"/>
+                <a href="/nsdp-platform/ENV5">
+                    <img src="/nsdp-platform/assets/img/goals/en/ENV5.jpg" id="goal-ENV5" alt="Environment 5 - Goal ENV5" class="goal-icon-image goal-icon-image-jpg"/>
                 </a>
             </div>
             
@@ -430,8 +430,8 @@ var translations = {
             
             
             <div class="goal-tile">
-                <a href="/vanuatu-nsdp/ECO1">
-                    <img src="/vanuatu-nsdp/assets/img/goals/en/ECO1.jpg" id="goal-ECO1" alt="Economy 1 - Goal ECO1" class="goal-icon-image goal-icon-image-jpg"/>
+                <a href="/nsdp-platform/ECO1">
+                    <img src="/nsdp-platform/assets/img/goals/en/ECO1.jpg" id="goal-ECO1" alt="Economy 1 - Goal ECO1" class="goal-icon-image goal-icon-image-jpg"/>
                 </a>
             </div>
             
@@ -439,8 +439,8 @@ var translations = {
             
             
             <div class="goal-tile">
-                <a href="/vanuatu-nsdp/ECO2">
-                    <img src="/vanuatu-nsdp/assets/img/goals/en/ECO2.jpg" id="goal-ECO2" alt="Economy 2 - Goal ECO2" class="goal-icon-image goal-icon-image-jpg"/>
+                <a href="/nsdp-platform/ECO2">
+                    <img src="/nsdp-platform/assets/img/goals/en/ECO2.jpg" id="goal-ECO2" alt="Economy 2 - Goal ECO2" class="goal-icon-image goal-icon-image-jpg"/>
                 </a>
             </div>
             
@@ -448,8 +448,8 @@ var translations = {
             
             
             <div class="goal-tile">
-                <a href="/vanuatu-nsdp/ECO3">
-                    <img src="/vanuatu-nsdp/assets/img/goals/en/ECO3.jpg" id="goal-ECO3" alt="Economy 3 - Goal ECO3" class="goal-icon-image goal-icon-image-jpg"/>
+                <a href="/nsdp-platform/ECO3">
+                    <img src="/nsdp-platform/assets/img/goals/en/ECO3.jpg" id="goal-ECO3" alt="Economy 3 - Goal ECO3" class="goal-icon-image goal-icon-image-jpg"/>
                 </a>
             </div>
             
@@ -457,8 +457,8 @@ var translations = {
             
             
             <div class="goal-tile">
-                <a href="/vanuatu-nsdp/ECO4">
-                    <img src="/vanuatu-nsdp/assets/img/goals/en/ECO4.jpg" id="goal-ECO4" alt="Economy 4 - Goal ECO4" class="goal-icon-image goal-icon-image-jpg"/>
+                <a href="/nsdp-platform/ECO4">
+                    <img src="/nsdp-platform/assets/img/goals/en/ECO4.jpg" id="goal-ECO4" alt="Economy 4 - Goal ECO4" class="goal-icon-image goal-icon-image-jpg"/>
                 </a>
             </div>
             
@@ -526,15 +526,15 @@ var translations = {
 
   
     <div class="zip-download-container">
-    <a href="/vanuatu-nsdp/en/zip/all_indicators.zip"
+    <a href="/nsdp-platform/en/zip/all_indicators.zip"
        class="btn btn-primary btn-download" aria-describedby="zip-download-info">
         Download all data
     </a>
     <div id="zip-download-info">
-        ZIP file - 25.7 kB
+        ZIP file - 30.4 kB
         
             <br>
-            Data last updated - Mar 09, 2021
+            Data last updated - Mar 23, 2021
         
     </div>
 </div>
@@ -653,13 +653,13 @@ interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.</p>
                 
                 </li>
               <li>
-                <a href="/vanuatu-nsdp/about/cookies-and-privacy/">Cookies</a>
+                <a href="/nsdp-platform/about/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               
             
             
-            <li><a href="/vanuatu-nsdp/config">Configuration</a></li>
+            <li><a href="/nsdp-platform/config">Configuration</a></li>
             </ul>
         </div>
       </div>
@@ -692,12 +692,12 @@ interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.</p>
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vanuatu-nsdp/assets/js/sdg.js?v=20210309215822'></script>
+<script src='/nsdp-platform/assets/js/sdg.js?v=20210323222705'></script>
 
 
     
     
-    <script src="/vanuatu-nsdp/assets/js/custom.js?v=20210309215822"></script><script>
+    <script src="/nsdp-platform/assets/js/custom.js?v=20210323222705"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

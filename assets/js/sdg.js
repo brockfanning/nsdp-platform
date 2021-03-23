@@ -248,6 +248,11 @@ opensdg.autotrack = function(preset, category, action, label) {
 
     // Alter data before displaying it.
     alterData: function(value) {
+      // @deprecated start
+      if (typeof opensdg.dataDisplayAlterations === 'undefined') {
+        opensdg.dataDisplayAlterations = [];
+      }
+      // @deprecated end
       opensdg.dataDisplayAlterations.forEach(function(callback) {
         value = callback(value);
       });
@@ -1026,7 +1031,7 @@ opensdg.chartColors = function(indicatorId) {
                   'sdg':['e5243b', 'dda63a', '4c9f38', 'c5192d', 'ff3a21', '26bde2', 'fcc30b', 'a21942', 'fd6925', 'dd1367','fd9d24','bf8b2e','3f7e44','0a97d9','56c02b','00689d','19486a'],
                   'goal': this.goalColors[this.goalNumber-1],
                   'custom': customColorList,
-                  'accessible': ['55a6e5', '8d4d57', 'cd7a00', '993300', '339966', '9966cc']};
+                  'accessible': ['cd7a00', '339966', '9966cc', '8d4d57', 'A33600', '054ce6']};
   if(Object.keys(this.colorSets).indexOf(colorSet) == -1 || (colorSet=='custom' && customColorList == null)){
     return this.colorSets['default'];
   }
@@ -1133,35 +1138,61 @@ function nonFieldColumns() {
  * @return {object|false} The first match given the selected unit/series, or false
  */
 function getMatchByUnitSeries(items, selectedUnit, selectedSeries) {
-  if (!items || items.length < 0) {
-    return false;
+  var matches = getMatchesByUnitSeries(items, selectedUnit, selectedSeries);
+  return (matches.length > 0) ? matches[0] : false;
+}
+
+/**
+ * @param {Array} items Objects optionally containing 'unit' and/or 'series'
+ * @param {String} selectedUnit
+ * @param {String} selectedSeries
+ * @return {Array} All matches given the selected unit/series, if any.
+ */
+function getMatchesByUnitSeries(items, selectedUnit, selectedSeries) {
+  if (!items || items.length === 0) {
+    return [];
   }
   if (!selectedUnit && !selectedSeries) {
-    return items[0];
+    return items;
   }
-  var match = items.find(function(item) {
+  // First pass to find any exact matches.
+  var matches = items.filter(function(item) {
+    var seriesMatch = item.series === selectedSeries,
+        unitMatch = item.unit === selectedUnit;
     if (selectedUnit && selectedSeries) {
-      return item.unit === selectedUnit && item.series === selectedSeries;
+      return seriesMatch && unitMatch;
     }
     else if (selectedUnit) {
-      return item.unit === selectedUnit;
+      return unitMatch;
     }
     else if (selectedSeries) {
-      return item.series === selectedSeries;
+      return seriesMatch;
     }
   });
-  if (!match) {
-    // If no match was found, allow for a partial match (eg, unit only).
-    match = items.find(function(item) {
-      if (selectedUnit) {
-        return item.unit === selectedUnit;
+  // Second pass to find any partial matches with unspecified unit/series.
+  if (matches.length === 0) {
+    matches = items.filter(function(item) {
+      var seriesMatch = item.series === selectedSeries && item.series && !item.unit,
+          unitMatch = item.unit === selectedUnit && item.unit && !item.series;
+      if (selectedUnit && selectedSeries) {
+        return seriesMatch || unitMatch;
+      }
+      else if (selectedUnit) {
+        return unitMatch;
       }
       else if (selectedSeries) {
-        return item.series === selectedSeries;
+        return seriesMatch;
       }
     });
   }
-  return match || false;
+  // Third pass to catch cases where nothing at all was specified.
+  if (matches.length === 0) {
+    matches = items.filter(function(item) {
+      var nothingSpecified = !item.unit && !item.series;
+      return nothingSpecified;
+    });
+  }
+  return matches;
 }
 
 /**
@@ -1811,8 +1842,17 @@ function getChartTitle(currentTitle, allTitles, selectedUnit, selectedSeries) {
  * @return {Object|false} Graph limit object, if any
  */
 function getGraphLimits(graphLimits, selectedUnit, selectedSeries) {
-  var match = getMatchByUnitSeries(graphLimits, selectedUnit, selectedSeries);
-  return (match) ? match : false;
+  return getMatchByUnitSeries(graphLimits, selectedUnit, selectedSeries);
+}
+
+/**
+ * @param {Array} graphAnnotations Objects containing 'unit' or 'series' or more
+ * @param {String} selectedUnit
+ * @param {String} selectedSeries
+ * @return {Array} Graph annotations objects, if any
+ */
+function getGraphAnnotations(graphAnnotations, selectedUnit, selectedSeries) {
+  return getMatchesByUnitSeries(graphAnnotations, selectedUnit, selectedSeries);
 }
 
 /**
@@ -2237,9 +2277,6 @@ function prepareData(rows) {
     });
 
     return item;
-  }, this).filter(function(item) {
-    // Remove anything without a value (allowing for zero as a value).
-    return item[VALUE_COLUMN] || item[VALUE_COLUMN] === 0;
   }, this);
 }
 
@@ -2313,6 +2350,7 @@ function getPrecision(precisions, selectedUnit, selectedSeries) {
     tableDataFromDatasets: tableDataFromDatasets,
     getPrecision: getPrecision,
     getGraphLimits: getGraphLimits,
+    getGraphAnnotations: getGraphAnnotations,
     getColumnsFromData: getColumnsFromData,
     // Backwards compatibility.
     footerFields: deprecated('helpers.footerFields'),
@@ -2571,7 +2609,7 @@ function getPrecision(precisions, selectedUnit, selectedSeries) {
           this.dataHasSeriesSpecificFields,
           this.selectedFields,
           this.edgesData,
-          this.compositeBreakdownLabel,
+          this.compositeBreakdownLabel
         ),
         allowedFields: this.allowedFields,
         edges: this.edgesData,
@@ -2626,7 +2664,7 @@ function getPrecision(precisions, selectedUnit, selectedSeries) {
       selectedSeries: this.selectedSeries,
       graphLimits: helpers.getGraphLimits(this.graphLimits, this.selectedUnit, this.selectedSeries),
       stackedDisaggregation: this.stackedDisaggregation,
-      graphAnnotations: this.graphAnnotations,
+      graphAnnotations: helpers.getGraphAnnotations(this.graphAnnotations, this.selectedUnit, this.selectedSeries),
       chartTitle: this.chartTitle,
       indicatorDownloads: this.indicatorDownloads,
       precision: helpers.getPrecision(this.precision, this.selectedUnit, this.selectedSeries),
@@ -2653,7 +2691,7 @@ var mapView = function () {
     $('#map').sdgMap({
       indicatorId: indicatorId,
       mapOptions: {"minZoom":5,"maxZoom":10,"tileURL":"","tileOptions":{"id":"","accessToken":"","attribution":""},"colorRange":"chroma.brewer.BuGn","noValueColor":"#f0f0f0","styleNormal":{"weight":1,"opacity":1,"fillOpacity":0.7,"color":"#888888","dashArray":""},"styleHighlighted":{"weight":1,"opacity":1,"fillOpacity":0.7,"color":"#111111","dashArray":""},"styleStatic":{"weight":2,"opacity":1,"fillOpacity":0,"color":"#172d44","dashArray":"5,5"}},
-      mapLayers: [],
+      mapLayers: [{"subfolder":"area-councils","label":"","min_zoom":0,"max_zoom":20,"staticBorders":false}],
       precision: precision,
       decimalSeparator: decimalSeparator,
     });
@@ -2992,6 +3030,11 @@ var indicatorView = function (model, options) {
   };
 
   this.alterTableConfig = function(config, info) {
+    // deprecated start
+    if (typeof opensdg.tableConfigAlterations === 'undefined') {
+      opensdg.tableConfigAlterations = [];
+    }
+    // deprecated end
     opensdg.tableConfigAlterations.forEach(function(callback) {
       callback(config, info);
     });
@@ -2999,7 +3042,7 @@ var indicatorView = function (model, options) {
 
   this.alterDataDisplay = function(value, info, context) {
     // If value is empty, we will not alter it.
-    if (value == null) {
+    if (value == null || value == undefined) {
       return value;
     }
     // Before passing to user-defined dataDisplayAlterations, let's
@@ -3009,10 +3052,15 @@ var indicatorView = function (model, options) {
       altered = Number(value);
     }
     // If that gave us a non-number, return original.
-    if (Number.isNaN(altered)) {
+    if (isNaN(altered)) {
       return value;
     }
     // Now go ahead with user-defined alterations.
+    // @deprecated start
+    if (typeof opensdg.dataDisplayAlterations === 'undefined') {
+      opensdg.dataDisplayAlterations = [];
+    }
+    // @deprecated end
     opensdg.dataDisplayAlterations.forEach(function(callback) {
       altered = callback(altered, info, context);
     });
@@ -3133,18 +3181,14 @@ var indicatorView = function (model, options) {
         title: {
           display: false
         },
-        tooltips: {
-          callbacks: {
-            label: function(tooltipItems, data) {
-              return tooltipItems.label + ': ' + view_obj.alterDataDisplay(tooltipItems.yLabel, data, 'chart tooltip');
-            },
-          },
-        },
         plugins: {
           scaler: {}
         },
         tooltips: {
           callbacks: {
+            label: function(tooltipItems, data) {
+              return data.datasets[tooltipItems.datasetIndex].label + ': ' + view_obj.alterDataDisplay(tooltipItems.yLabel, data, 'chart tooltip');
+            },
             afterBody: function() {
               var unit = view_obj._model.selectedUnit ? translations.t(view_obj._model.selectedUnit) : view_obj._model.measurementUnit;
               if (typeof unit !== 'undefined' && unit !== '') {
@@ -3247,7 +3291,7 @@ var indicatorView = function (model, options) {
   };
 
   this.getHeadlineColor = function(contrast) {
-    return this.isHighContrast(contrast) ? '#FFDD00' : '#004466'
+    return this.isHighContrast(contrast) ? '#FFDD00' : '#00006a';
   }
 
   this.getGridColor = function(contrast) {
@@ -3589,7 +3633,7 @@ var indicatorView = function (model, options) {
           var isYear = (index == 0);
           var cell_prefix = (isYear) ? '<th scope="row"' : '<td';
           var cell_suffix = (isYear) ? '</th>' : '</td>';
-          row_html += cell_prefix + (isYear ? '' : ' class="table-value"') + '>' + (data[index] !== null ? data[index] : '-') + cell_suffix;
+          row_html += cell_prefix + (isYear ? '' : ' class="table-value"') + '>' + (data[index] !== null && data[index] !== undefined ? data[index] : '-') + cell_suffix;
         });
         row_html += '</tr>';
         currentTable.find('tbody').append(row_html);
@@ -3634,6 +3678,11 @@ var indicatorView = function (model, options) {
     .appendTo(fieldGroupElement.find('#indicatorData .variable-options'));
   }
 };
+// @deprecated start
+// Some backwards compatibiliy code after Lodash migration.
+_.findWhere = _.find;
+// @deprecated end
+
 var indicatorController = function (model, view) {
   this._model = model;
   this._view = view;
@@ -4322,8 +4371,9 @@ $(function() {
       }
       // Otherwise we get the year from the beginning of the string.
       else {
-        for (var delimiter of ['-', '.', ' ', '/']) {
-          var parts = year.split(delimiter);
+        var delimiters = ['-', '.', ' ', '/'];
+        for (var i = 0; i < delimiters.length; i++) {
+          var parts = year.split(delimiters[i]);
           if (parts.length > 1 && isYear(parts[0])) {
             mapped.time = parts[0] + '-01-0' + day;
             day += 1;
