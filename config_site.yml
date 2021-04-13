@@ -14,7 +14,7 @@ remote_theme: brockfanning/open-sdg@vanuatu-feature-set
 # Replace this title as needed.
 title: Indicators For The National Sustainable Development Plan
 # Replace the baseurl with the name of this repository.
-baseurl: "/nsdp-platform"
+baseurl: "/vnso-nsdp-platform"
 source: www
 
 # Pages
