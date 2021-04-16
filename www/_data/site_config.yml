@@ -1,4 +1,4 @@
-accessible_charts: true
+﻿accessible_charts: true
 accessible_tabs: true
 analytics:
   ga_prod: ''
@@ -121,6 +121,8 @@ goal_image_extension: jpg
 goals_page:
   title: ''
   description: ''
+graph_color_headline: '#004466'
+graph_color_headline_high_contrast: '#55a6e5'
 graph_color_set: default
 graph_color_list: []
 graph_color_number: 0
@@ -133,6 +135,10 @@ indicator_config_form:
 languages:
   - en
 languages_public: []
+logos:
+  - language: ''
+    src: assets/img/logo tittle.PNG
+    alt: National Development Goals 2030
 map_layers:
   - subfolder: area-councils
     label: ''
