@@ -21,8 +21,6 @@ breadcrumbs:
 country:
   name: Vanuatu
   adjective: Vanuatuan
-create_config_forms:
-  layout: config-builder
 create_goals:
   layout: goal-by-target
   previous_next_links: true
@@ -131,9 +129,12 @@ header:
 header_language_toggle: dropdown
 hide_empty_metadata: true
 indicator_config_form:
+  enabled: true
   dropdowns: []
+  repository_link: "https://github.com/Vanuatu-National-Statistics-Office/vnso-nsdp-platform/tree/develop/indicators"
 languages:
   - en
+  - bi
 languages_public: []
 logos:
   - language: ''
@@ -210,6 +211,10 @@ search_index_extra_fields: []
 series_toggle: true
 sharethis_property: ''
 site_config_form:
+  enabled: true
   dropdowns: []
+  repository_link: "https://github.com/Vanuatu-National-Statistics-Office/vnso-nsdp-platform/tree/develop/www/_data"
 validate_indicator_config: false
 validate_site_config: false
+indicator_metadata_form:
+  enabled: false
