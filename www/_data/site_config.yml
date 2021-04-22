@@ -131,7 +131,26 @@ hide_empty_metadata: true
 indicator_config_form:
   enabled: true
   dropdowns: []
-  repository_link: "https://github.com/Vanuatu-National-Statistics-Office/vnso-nsdp-platform/tree/develop/indicators"
+  repository_link: >-
+    https://github.com/Vanuatu-National-Statistics-Office/vnso-nsdp-platform/tree/develop/indicators
+  translation_link: ''
+indicator_metadata_form:
+  enabled: true
+  dropdowns: []
+  repository_link: >-
+    https://github.com/Vanuatu-National-Statistics-Office/vnso-nsdp-platform/tree/develop/meta
+  translation_link: ''
+  language: ''
+  scopes:
+    - national
+    - global
+    - source_1
+    - source_2
+    - source_3
+    - source_4
+    - source_5
+    - source_6
+  exclude_fields: []
 languages:
   - en
   - bi
@@ -190,7 +209,7 @@ menu:
   - path: /news
     translation_key: menu.updates
     dropdown: []
-metadata_edit_url: ../editor-instructions/
+metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
     title: indicator.national_metadata
@@ -213,8 +232,8 @@ sharethis_property: ''
 site_config_form:
   enabled: true
   dropdowns: []
-  repository_link: "https://github.com/Vanuatu-National-Statistics-Office/vnso-nsdp-platform/tree/develop/www/_data"
+  repository_link: >-
+    https://github.com/Vanuatu-National-Statistics-Office/vnso-nsdp-platform/tree/develop/www/_data
+  translation_link: ''
 validate_indicator_config: false
 validate_site_config: false
-indicator_metadata_form:
-  enabled: false
