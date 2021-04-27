@@ -18,7 +18,7 @@ OtherDemandSources: UNESCO
 ResponsibleAgency: VNSO
 RelatedLinks: http://pdf.spc.int/index.php/catelog/43
 graph_type: bar
-computation_units: %
+computation_units: "%"
 source_active_1: true
 source_organisation_1: 2012 Pacific Living Conditions Survey (Hybrid) - VNSO and SPC
 data_non_statistical: false
