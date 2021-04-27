@@ -44,6 +44,13 @@ src_dir: ''
 # Each item must have a "class" which corresponds to classes in the sdg/inputs
 # folder. Further, each item can have any/all of the parameters that class uses.
 # The defaults below show what is used when this is omitted.
+inputs:
+  - class: InputCsvData
+    path_pattern: data/*.csv
+  - class: InputYamlMeta
+    path_pattern: meta/*.yml
+    git: true
+    git_data_dir: data
 
 # Translations
 # ------------
