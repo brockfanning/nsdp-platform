@@ -1,7 +1,7 @@
 PillarName: Economy
 NSDPIndicatorID: ECO 2.2.2
 IndicatorShortName: Access to Improved Sanitation Facilities
-Definition: "Using ""Improved"" figures published in houshold collections"
+Definition: "Using 'Improved' figures published in houshold collections"
 Calculation/Formulation:
 Range:
 Assumptions:

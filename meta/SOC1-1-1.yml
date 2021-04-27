@@ -4,7 +4,7 @@ IndicatorShortName: Daily Use of Indigenous Languages
 Definition: Percentage of the population who report speaking their indigenous language every day
 Calculation/Formulation: (Total number of people that speak lanwis/vernacular indigenous langauge every day / Total population of that specific cultural group) * 100
 Range: Those who are eligible to be asked the question - population 12 years and older captures Vanuatu youth demographic
-Assumptions: "People reporting ""Daily Use"" use lanwis/vernacular indigenous language more than once a day"
+Assumptions: "People reporting 'Daily Use' use lanwis/vernacular indigenous language more than once a day"
 Limitations: "This question is not included in the Census and does not distinguish between indigenous language groups, of which there are estimated 100+"
 IntendedDirection: 2
 Purpose/Rationale: Measure prevalence of use of indigenous language for communication and proxy measure for traditional knowledge

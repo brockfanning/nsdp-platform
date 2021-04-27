@@ -1,7 +1,7 @@
 PillarName: Economy
 NSDPIndicatorID: ECO 2.2.1
 IndicatorShortName: Access to Safe Drinking Water
-Definition: "Safe drinking water identified as ""improved"" as definded for household collections."
+Definition: "Safe drinking water identified as 'improved' as definded for household collections."
 Calculation/Formulation:
 Range:
 Assumptions:
