@@ -11,7 +11,7 @@ Purpose/Rationale:
 PolicyLinkage:
 PreferredDataSource:
 AlternativeDataSource:
-SourceTag: Table 10 : Growth Rates - Constant Price GDP by Expenditure
+SourceTag: "Table 10 : Growth Rates - Constant Price GDP by Expenditure"
 PrimaryCollectionSystem:
 FrequencyofCollection:
 OtherDemandSources:

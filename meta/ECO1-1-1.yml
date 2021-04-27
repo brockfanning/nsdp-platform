@@ -11,7 +11,7 @@ Purpose/Rationale:
 PolicyLinkage:
 PreferredDataSource:
 AlternativeDataSource:
-SourceTag: Table 1 CPI December Quarter
+SourceTag: "Table 1 CPI December Quarter"
 PrimaryCollectionSystem:
 FrequencyofCollection:
 OtherDemandSources:

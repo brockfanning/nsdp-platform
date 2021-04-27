@@ -11,7 +11,7 @@ Purpose/Rationale:
 PolicyLinkage:
 PreferredDataSource:
 AlternativeDataSource:
-SourceTag: Table 6.1: Summary of overseas trade
+SourceTag: "Table 6.1: Summary of overseas trade"
 PrimaryCollectionSystem:
 FrequencyofCollection:
 OtherDemandSources:
