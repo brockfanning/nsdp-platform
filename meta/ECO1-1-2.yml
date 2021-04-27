@@ -11,7 +11,7 @@ Purpose/Rationale:
 PolicyLinkage:
 PreferredDataSource:
 AlternativeDataSource:
-SourceTag: Table 5 : Growth Rates - Constant Prices GDP by Industry
+SourceTag: "Table 5: Growth Rates - Constant Prices GDP by Industry"
 PrimaryCollectionSystem:
 FrequencyofCollection:
 OtherDemandSources:
@@ -20,8 +20,8 @@ RelatedLinks:
 graph_type: bar
 computation_units:
 source_active_1: true
-source_organisation_1: Statistical Release: Gross Domestic Product Highlights 2016
+source_organisation_1: "Statistical Release: Gross Domestic Product Highlights 2016"
 source_active_2: true
-source_organisation_2: Statistical Release: Gross Domestic Product Highlights 2017
+source_organisation_2: "Statistical Release: Gross Domestic Product Highlights 2017"
 data_non_statistical: false
 graph_title: GDP Growth Rate (annual/trends)
