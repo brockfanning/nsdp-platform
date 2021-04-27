@@ -15,6 +15,7 @@ docs_baseurl: /vnso-nsdp-platform
 languages:
   - en
   - bi
+  - fr
 
 # Destination directory
 # ---------------------

@@ -1,0 +1,7 @@
+---
+layout: news
+title: News & Events
+permalink: /fr/news/
+language: fr
+---
+Check this page for news regarding the reporting of our statistics for national indicators and opportunities to contribute to measuring achievement of the NSDP goals
