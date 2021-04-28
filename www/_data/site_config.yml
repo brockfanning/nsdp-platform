@@ -52,7 +52,7 @@ create_pages:
 custom_css: []
 custom_js:
   - /assets/js/custom.js
-data_edit_url: ../editor-instructions/
+data_edit_url: https://github.com/Vanuatu-National-Statistics-Office/vnso-nsdp-platform/blob/develop/data/indicator_[id].csv
 data_fields:
   units: ''
   series: ''
@@ -151,9 +151,11 @@ indicator_metadata_form:
     - source_5
     - source_6
   exclude_fields: []
+  translated: true
 languages:
   - en
   - bi
+  - fr
 languages_public: []
 logos:
   - language: ''
