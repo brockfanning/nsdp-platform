@@ -67,7 +67,7 @@ email_contacts:
 environment: staging
 footer_language_toggle: none
 footer_menu:
-  - path: 'mailto:my-email-address@example.com'
+  - path: /contact/
     translation_key: menu.contact_us
   - path: 'https://twitter.com/MyTwitterAccount'
     translation_key: general.twitter
@@ -209,7 +209,7 @@ menu:
     dropdown:
       - path: /about/
         translation_key: NSPD Online Platform
-      - path: /guidance/
+      - path: /technical-advice/
         translation_key: Technical advice
   - path: /2030-agenda/
     translation_key: Useful information

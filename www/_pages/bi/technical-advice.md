@@ -1,6 +1,6 @@
 ---
-title: Frequently Asked Questions (FAQ)
-permalink: /bi/faq/
+title: Technical advice
+permalink: /bi/technical-advice/
 layout: page
 language: bi
 ---

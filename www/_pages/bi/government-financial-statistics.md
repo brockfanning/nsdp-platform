@@ -1,7 +1,7 @@
 ---
 title: Government financial statistics
 language: bi
-permalink: bi/government-financial-statistcs/
+permalink: bi/government-financial-statistics/
 layout: standalone-indicators
 standalone_indicators: []
 ---
