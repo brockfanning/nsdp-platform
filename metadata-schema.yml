@@ -4,6 +4,96 @@
 prose:
   metadata:
     meta:
+      - name: "PillarCode"
+        field:
+            element: text
+            translation_key: "Pillar Code"
+            scope: national
+      - name: "PillarDescription"
+        field:
+            element: text
+            translation_key: "Pillar Description"
+            scope: national
+      - name: "GoalId"
+        field:
+            element: text
+            translation_key: "Goal Id"
+            scope: national
+      - name: "GoalDescription"
+        field:
+            element: text
+            translation_key: "Goal Description"
+            scope: national
+      - name: "PolicyObjectiveId"
+        field:
+            element: text
+            translation_key: "Policy Objective Id"
+            scope: national
+      - name: "PolicyObjectiveDescription"
+        field:
+            element: text
+            translation_key: "Policy Objective Description"
+            scope: national
+      - name: "IndicatorId"
+        field:
+            element: text
+            translation_key: "Indicator Id"
+            scope: national
+      - name: "IndicatorDescription"
+        field:
+            element: text
+            translation_key: "Indicator Description"
+            scope: national
+      - name: "TargetDescription"
+        field:
+            element: text
+            translation_key: "Target"
+            scope: national
+      - name: "SDGAlignment1"
+        field:
+            element: text
+            translation_key: "SDG Alignment1"
+            scope: national
+      - name: "SDGAlignment2"
+        field:
+            element: text
+            translation_key: "SDG Alignment2"
+            scope: national
+      - name: "SDGAlignment3"
+        field:
+            element: text
+            translation_key: "SDG Alignment3"
+            scope: national
+      - name: "SDGAlignment4"
+        field:
+            element: text
+            translation_key: "SDG Alignment4"
+            scope: national
+      - name: "SDGAlignment5"
+        field:
+            element: text
+            translation_key: "SDG Alignment5"
+            scope: national
+      - name: "ComputationMethod"
+        field:
+            element: text
+            translation_key: "Computation Method"
+            scope: national
+      - name: "ComputationUnit"
+        field:
+            element: text
+            translation_key: "Computation Unit"
+            scope: national
+      - name: "DataSource"
+        field:
+            element: text
+            translation_key: "Data Source"
+            scope: national
+      - name: "FrequencyOfCollection"
+        field:
+            element: text
+            translation_key: "Frequency Of Collection"
+            scope: national
       - name: "PillarName"
         field:
             element: text
