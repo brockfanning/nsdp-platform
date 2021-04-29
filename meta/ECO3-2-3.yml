@@ -2,23 +2,57 @@ AlternativeDataSource: null
 Assumptions: null
 Calculation/Formulation: Total number of outer islands visitors divided by the total
   number of visitors arrivals from overseas.
-Definition: null
+ComputationMethod: (number of tourist visitors to the outer islands )/(total number
+  of tourist visitors to vanuatu ) X100
+ComputationUnit: percentage (%), count
+Concept: "Number of tourists visiting the outer islands of Vanuatu either for a day\
+  \ pass or spend the night apart from the total number of tourist\u2019s visitors\
+  \ into the country."
+DataSource: '* Tourism department
+
+  * Ministry of Trades
+
+  * Provincial government '
+Definition: Number of tourist travelling to outer islands in cooperative relation
+  to the total number of tourist visitors into the country
+Dissaggregation: Province level, National level, Rural/Urban
+FrequencyOfCollection: Monthly, Annually
 FrequencyofCollection: null
+GoalDescription: A strong rural economy that creates opportunities, enables the development
+  of rural communities and increasingly contributes to national prosperity
+GoalId: 3
+IndicatorDescription: Proportion of visitors traveling to outer islands
+IndicatorId: ECO 3.2.3
 IndicatorShortName: Tourism in Outer Islands as Proportion to Total
 IntendedDirection: null
 Limitations: null
 NSDPIndicatorID: ECO 3.2.3
 OtherDemandSources: null
+PillarDescription: Economy
 PillarName: Economy
 PolicyLinkage: null
+PolicyObjectiveDescription: Deepen the integration of the tourism sector into the
+  rural economy to spread opportunities to rural communities
+PolicyObjectiveId: ECO 3.2
 PreferredDataSource: null
 PrimaryCollectionSystem: null
+Proxy: ''
 Purpose/Rationale: null
 Range: null
+Rationale: '* Indicates the impacts of tourism in the economy.
+
+  * Depicts the development of the tourism sector in the outer islands and the rural
+  communities. '
 RelatedLinks: null
 ResponsibleAgency: null
+SDGAlignment1: ''
+SDGAlignment2: ''
+SDGAlignment3: ''
+SDGAlignment4: ''
+SDGAlignment5: ''
 SourceTag: 'Table 7: Visitors travelling to outer islands , Vanuatu and Table 1: Summary
   of overseas Migration , International Arrival Statistics December publication'
+TargetDescription: By 2030 will increase by 10%
 source_active_1: true
 source_active_2: true
 source_organisation_1: 2017 International Arrivals Statistics Monthly Report (December),

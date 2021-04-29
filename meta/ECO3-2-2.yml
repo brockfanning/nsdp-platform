@@ -1,22 +1,64 @@
 AlternativeDataSource: null
 Assumptions: null
 Calculation/Formulation: Total Visitors minus total visitors previous year
-Definition: Total Visitors as published refers to visitors arrival by air
+ComputationMethod: "VISITORS (INCLUDE BOTH ARRIVAL AND DEPARTURE)\nAnnual Change:\
+  \ Number of visitors travelling by air in year 2(current year) \u2013 Number of\
+  \ Visitors Travelling by air in year 1(previous year)\nAnnual Change: Number of\
+  \ Visitors travelling by sea in year 2(Current year) \u2013 Number of Visitors Travelling\
+  \ by sea in year 1(previous year)\n\nTOURIST\nAnnual Change: Number of Visitors\
+  \ and resident traveling in and out of the country by sea and air in year 1 (current\
+  \ year) Less (-) Number of visitors and resident traveling in and out the country\
+  \ by sea and air in year 2(previous year)\n\nPercentage Change: Number of Visitors\
+  \ and resident traveling in and out of the country by sea and air in year 1 (current\
+  \ year) Less (-) Number of visitors and resident traveling in and out the country\
+  \ by sea and air in year 2(previous year) /(DIVIDED)\nNumber of Visitors and resident\
+  \ traveling in and out of the country by sea and air in year 1 (current year) x\
+  \ 100"
+ComputationUnit: total count, percentage (%)
+Concept: '* Boats: incoming cruise ships
+
+  * International flights coming in through two international airports (Pekoa & Baurfield
+  airport)'
+DataSource: "* VNSO international visitor\u2019s arrival (IVA) reports annually\n\
+  * Customs inland Revenue (CIR) annual visitor\u2019s reports annually \n"
+Definition: 'Annual Change in the number of incoming flights (Air) and boats (Sea)
+  for tourism purposes '
+Dissaggregation: National
+FrequencyOfCollection: Annually
 FrequencyofCollection: null
+GoalDescription: A strong rural economy that creates opportunities, enables the development
+  of rural communities and increasingly contributes to national prosperity
+GoalId: 3
+IndicatorDescription: Annual change in tourism by air and sea arrivals
+IndicatorId: ECO 3.2.2
 IndicatorShortName: Change in Annual Tourism Arrivals by Air
 IntendedDirection: null
 Limitations: null
 NSDPIndicatorID: ECO 3.2.2
 OtherDemandSources: null
+PillarDescription: Economy
 PillarName: Economy
 PolicyLinkage: null
+PolicyObjectiveDescription: Deepen the integration of the tourism sector into the
+  rural economy to spread opportunities to rural communities
+PolicyObjectiveId: ECO 3.2
 PreferredDataSource: null
 PrimaryCollectionSystem: null
+Proxy: ''
 Purpose/Rationale: null
 Range: null
+Rationale: '* Indicates the impact of tourism on the economy
+
+  * Depicts the development of tourism sector in Vanuatu (Tourism activities developed)'
 RelatedLinks: null
 ResponsibleAgency: null
+SDGAlignment1: ''
+SDGAlignment2: ''
+SDGAlignment3: ''
+SDGAlignment4: ''
+SDGAlignment5: ''
 SourceTag: 'Table 7.1 : Summary of International Migration Arrival Statistics , QSI'
+TargetDescription: 'By 2030 will increase by 30% '
 source_active_1: true
 source_active_10: true
 source_active_11: true

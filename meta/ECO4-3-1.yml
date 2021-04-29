@@ -1,20 +1,54 @@
 AlternativeDataSource: null
 Assumptions: null
 Calculation/Formulation: null
-Definition: null
+ComputationMethod: "\xB7\_\_Sum of all processed commodities produce annually /  Sum\
+  \ of all processed & raw commodities produce per annum                         \
+  \            x 100\n"
+ComputationUnit: percentage (%) & total count
+Concept: To find the total number of processed local products produce annually for
+  domestic consumption and export so that Vanuatu can look for ways to increase by
+  10% production and processing niche commodities by 2020.
+DataSource: Trade Statistics VNSO
+Definition: Locally processed products refer to food and other agricultural products
+  (for example, kava, coconut products, cocoa products) that are grown or produced,
+  processed and then sold domestically within a certain area or for overseas export.
+Dissaggregation: 'National '
+FrequencyOfCollection: Annually
 FrequencyofCollection: null
+GoalDescription: An enabling business environment, creating opportunities and employment
+  for entrepreneurs throughout Vanuatu.
+GoalId: 4
+IndicatorDescription: Total number of processed local products produced per anum for
+  domestic consumption and export.
+IndicatorId: ECO 4.3.1
 IndicatorShortName: Range of Processed Local Products for Domestic Consumption and
   Export
 IntendedDirection: null
 Limitations: null
 NSDPIndicatorID: ECO 4.3.1
 OtherDemandSources: null
+PillarDescription: Economy
 PillarName: Economy
 PolicyLinkage: null
+PolicyObjectiveDescription: Increase production and processing of niche commodities,
+  and value addition to commodities in which Vanuatu enjoys a comparative advantage.
+PolicyObjectiveId: ECO 4.3
 PreferredDataSource: null
 PrimaryCollectionSystem: null
+Proxy: 'No'
 Purpose/Rationale: null
 Range: null
+Rationale: To depict total number of processed local products produced per anum for
+  domestic consumption and export. So that production of processed local products
+  must increase by 10% by the year 2020. And therefore, enabling a competitive business
+  environment and creating more opportunities and employments for entrepreneurs throughout
+  Vanuatu.
 RelatedLinks: null
 ResponsibleAgency: null
+SDGAlignment1: "9.b.1\n (Tier 2)"
+SDGAlignment2: ''
+SDGAlignment3: ''
+SDGAlignment4: ''
+SDGAlignment5: ''
 SourceTag: null
+TargetDescription: By 2020 increase by 10%
