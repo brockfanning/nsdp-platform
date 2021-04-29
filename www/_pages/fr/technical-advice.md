@@ -1,7 +1,8 @@
 ---
-title: Frequently Asked Questions (FAQ)
-permalink: /faq/
+title: Technical advice
+permalink: /fr/technical-advice/
 layout: page
+language: fr
 ---
 
 ## How do I suggest new or different data sources?

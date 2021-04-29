@@ -1,5 +1,6 @@
 _site/
 _build/
+_test/
 venv/
 .sass-cache/
 .jekyll-metadata

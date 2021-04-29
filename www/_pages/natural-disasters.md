@@ -1,8 +1,7 @@
 ---
 title: Natural Disasters
-permalink: /fr/natural_disaster/
+permalink: /natural-disasters/
 layout: page
-language: fr
 ---
 
 TBD
