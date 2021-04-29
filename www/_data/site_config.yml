@@ -88,13 +88,11 @@ frontpage_cards:
     button_label: VNSO Website
     button_link: 'https://vnso.gov.vu'
     rule_color: ''
-  - title: Nam vestibulum
-    content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
-    include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
+  - title: Department of Strategic Policy, Planning & Aid Coordination
+    content: ''
+    include: dsppac-card.html
+    button_label: DSPPAC Website
+    button_link: 'https://dsppac.gov.vu/'
     rule_color: ''
 frontpage_goals_grid:
   title: Our data for National Sustainable Development Plan indicators
@@ -123,7 +121,7 @@ graph_color_set: default
 graph_color_list: []
 graph_color_number: 0
 header:
-  include: header-default.html
+  include: header-menu-left-aligned.html
 header_language_toggle: dropdown
 hide_empty_metadata: true
 indicator_config_form:
@@ -194,20 +192,40 @@ map_options:
     color: '#172d44'
     dashArray: '5,5'
 menu:
-  - path: /goals
-    translation_key: general.goals
+  - path: goals
+    translation_key: 15 Goals
     dropdown: []
-  - path: /reporting-status
-    translation_key: menu.reporting_status
+  - path: reporting-status
+    translation_key: Evaluation
+    dropdown:
+      - path: reporting-status
+        translation_key: Data availability
+      - path: indicator-overview
+        translation_key: Indicator overview
+      - path: methodology
+        translation_key: Methodology
+  - path: about
+    translation_key: About us
+    dropdown:
+      - path: about
+        translation_key: NSPD Online Platform
+      - path: guidance
+        translation_key: Technical advice
+  - path: 2030-agenda
+    translation_key: Useful information
+    dropdown:
+      - path: 2030-agenda
+        translation_key: 2030 agenda
+      - path: publications
+        translation_key: Publications
+  - path: government-financial-statistics
+    translation_key: Government financial statistics
     dropdown: []
-  - path: /about
-    translation_key: menu.about
+  - path: natural-disasters
+    translation_key: Disaster statistics
     dropdown: []
-  - path: /faq
-    translation_key: menu.faq
-    dropdown: []
-  - path: /news
-    translation_key: menu.updates
+  - path: area-council-profiles
+    translation_key: Area council profiles
     dropdown: []
 metadata_edit_url: metadata
 metadata_tabs:

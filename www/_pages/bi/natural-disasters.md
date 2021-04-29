@@ -1,6 +1,6 @@
 ---
 title: Naturol Disasta
-permalink: /bi/natural_disaster/
+permalink: /bi/natural-disasters/
 layout: page
 language: bi
 ---
