@@ -1,7 +1,7 @@
 ---
 title: Area council profiles
 language: fr
-permalink: fr/area-council-profiles/
+permalink: /fr/area-council-profiles/
 layout: standalone-indicators
 standalone_indicators:
  - census

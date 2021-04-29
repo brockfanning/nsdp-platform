@@ -1,7 +1,7 @@
 ---
 title: Government financial statistics
 language: fr
-permalink: fr/government-financial-statistcs/
+permalink: /fr/government-financial-statistcs/
 layout: standalone-indicators
 standalone_indicators: []
 ---

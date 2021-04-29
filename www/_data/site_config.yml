@@ -6,17 +6,17 @@ breadcrumbs:
   goal:
     - path: /
       label: general.home
-    - path: /goals
+    - path: /goals/
       label: general.goals
   indicator:
     - path: /
       label: general.home
-    - path: /goals
+    - path: /goals/
       label: general.goals
   post:
     - path: /
       label: general.home
-    - path: /news
+    - path: /news/
       label: menu.updates
 country:
   name: Vanuatu
@@ -192,39 +192,39 @@ map_options:
     color: '#172d44'
     dashArray: '5,5'
 menu:
-  - path: goals
+  - path: /goals/
     translation_key: 15 Goals
     dropdown: []
-  - path: reporting-status
+  - path: /reporting-status/
     translation_key: Evaluation
     dropdown:
-      - path: reporting-status
+      - path: /reporting-status/
         translation_key: Data availability
-      - path: indicator-overview
+      - path: /indicator-overview/
         translation_key: Indicator overview
-      - path: methodology
+      - path: /methodology/
         translation_key: Methodology
-  - path: about
+  - path: /about/
     translation_key: About us
     dropdown:
-      - path: about
+      - path: /about/
         translation_key: NSPD Online Platform
-      - path: guidance
+      - path: /guidance/
         translation_key: Technical advice
-  - path: 2030-agenda
+  - path: /2030-agenda/
     translation_key: Useful information
     dropdown:
-      - path: 2030-agenda
+      - path: /2030-agenda/
         translation_key: 2030 agenda
-      - path: publications
+      - path: /publications/
         translation_key: Publications
-  - path: government-financial-statistics
+  - path: /government-financial-statistics/
     translation_key: Government financial statistics
     dropdown: []
-  - path: natural-disasters
+  - path: /natural-disasters/
     translation_key: Disaster statistics
     dropdown: []
-  - path: area-council-profiles
+  - path: /area-council-profiles/
     translation_key: Area council profiles
     dropdown: []
 metadata_edit_url: metadata

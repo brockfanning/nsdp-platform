@@ -1,7 +1,7 @@
 ---
 title: Area council profiles
 language: bi
-permalink: bi/area-council-profiles/
+permalink: /bi/area-council-profiles/
 layout: standalone-indicators
 standalone_indicators:
   - census
