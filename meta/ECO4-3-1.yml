@@ -1,23 +1,20 @@
-PillarName: Economy
+AlternativeDataSource: null
+Assumptions: null
+Calculation/Formulation: null
+Definition: null
+FrequencyofCollection: null
+IndicatorShortName: Range of Processed Local Products for Domestic Consumption and
+  Export
+IntendedDirection: null
+Limitations: null
 NSDPIndicatorID: ECO 4.3.1
-IndicatorShortName: Range of Processed Local Products for Domestic Consumption and Export
-Definition:
-Calculation/Formulation:
-Range:
-Assumptions:
-Limitations:
-IntendedDirection:
-Purpose/Rationale:
-PolicyLinkage:
-PreferredDataSource:
-AlternativeDataSource:
-SourceTag:
-PrimaryCollectionSystem:
-FrequencyofCollection:
-OtherDemandSources:
-ResponsibleAgency:
-RelatedLinks:
-graph_type: bar
-computation_units:
-data_non_statistical: false
-graph_title: Total number of processed local products produced per annum for domestic consumption and export
+OtherDemandSources: null
+PillarName: Economy
+PolicyLinkage: null
+PreferredDataSource: null
+PrimaryCollectionSystem: null
+Purpose/Rationale: null
+Range: null
+RelatedLinks: null
+ResponsibleAgency: null
+SourceTag: null

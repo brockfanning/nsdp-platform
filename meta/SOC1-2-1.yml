@@ -1,25 +1,22 @@
-PillarName: Society
-NSDPIndicatorID: SOC 1.2.1
+AlternativeDataSource: null
+Assumptions: null
+Calculation/Formulation: null
+Definition: null
+FrequencyofCollection: null
 IndicatorShortName: Traditional Knowledge Stories
-Definition:
-Calculation/Formulation:
-Range:
-Assumptions:
-Limitations:
-IntendedDirection:
-Purpose/Rationale:
-PolicyLinkage:
-PreferredDataSource:
-AlternativeDataSource:
-SourceTag:
-PrimaryCollectionSystem:
-FrequencyofCollection:
-OtherDemandSources:
-ResponsibleAgency:
-RelatedLinks:
-graph_type: bar
-computation_units:
+IntendedDirection: null
+Limitations: null
+NSDPIndicatorID: SOC 1.2.1
+OtherDemandSources: null
+PillarName: Society
+PolicyLinkage: null
+PreferredDataSource: null
+PrimaryCollectionSystem: null
+Purpose/Rationale: null
+Range: null
+RelatedLinks: null
+ResponsibleAgency: null
+SourceTag: null
 source_active_1: true
-source_organisation_1: 2012 Melanesian Well-being Indicators Pilot Study Report - VNSO
-data_non_statistical: false
-graph_title: "Proportion of population with knowledge of traditional stories, dances, songs, and games"
+source_organisation_1: 2012 Melanesian Well-being Indicators Pilot Study Report -
+  VNSO
