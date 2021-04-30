@@ -1,23 +1,19 @@
-PillarName: Economy
-NSDPIndicatorID: ECO 1.7.2
+AlternativeDataSource: null
+Assumptions: null
+Calculation/Formulation: null
+Definition: null
+FrequencyofCollection: null
 IndicatorShortName: Change in Volume of Business Licences Issued to Ni-Vanuatu
-Definition:
-Calculation/Formulation:
-Range:
-Assumptions:
-Limitations:
-IntendedDirection:
-Purpose/Rationale:
-PolicyLinkage:
-PreferredDataSource:
-AlternativeDataSource:
-SourceTag:
-PrimaryCollectionSystem:
-FrequencyofCollection:
-OtherDemandSources:
-ResponsibleAgency:
-RelatedLinks:
-graph_type: bar
-computation_units:
-data_non_statistical: false
-graph_title: Change in volume of business licenses issued to Ni-Vanuatu
+IntendedDirection: null
+Limitations: null
+NSDPIndicatorID: ECO 1.7.2
+OtherDemandSources: null
+PillarName: Economy
+PolicyLinkage: null
+PreferredDataSource: null
+PrimaryCollectionSystem: null
+Purpose/Rationale: null
+Range: null
+RelatedLinks: null
+ResponsibleAgency: null
+SourceTag: null

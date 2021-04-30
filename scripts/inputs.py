@@ -1,20 +1,3 @@
-#from InputNsdpDatabase import InputNsdpDatabase
-from sdg.inputs.InputYamlMeta import InputYamlMeta
-from sdg.inputs.InputCsvData import InputCsvData
-from sdg.inputs.InputCsvMeta import InputCsvMeta
-
-def get_inputs():
-    data_input = InputCsvData(path_pattern='data/*.csv')
-    meta_input = InputCsvMeta(path_pattern='meta/*.csv', git=False)
-    indicator_config_input = InputYamlMeta(path_pattern='indicators/*.yml', git=False)
-    progress_input = InputYamlMeta(path_pattern='progress/*.yml', git=False)
-    return [
-        data_input,
-        meta_input,
-        indicator_config_input,
-        progress_input,
-    ]
-
 def alter_meta(meta):
     if 'NSDPIndicatorID' in meta:
         # Auto-calculate settings based on 'NSDPIndicatorID'.

@@ -1,25 +1,21 @@
-PillarName: Economy
-NSDPIndicatorID: ECO 4.1.1
-IndicatorShortName: Gross Fixed Capital Formation Growth
+AlternativeDataSource: null
+Assumptions: null
+Calculation/Formulation: null
 Definition: Gross Fixed Capital Formation
-Calculation/Formulation:
-Range:
-Assumptions:
-Limitations:
-IntendedDirection:
-Purpose/Rationale:
-PolicyLinkage:
-PreferredDataSource:
-AlternativeDataSource:
-SourceTag: "Table 10 : Growth Rates - Constant Price GDP by Expenditure"
-PrimaryCollectionSystem:
-FrequencyofCollection:
-OtherDemandSources:
-ResponsibleAgency:
-RelatedLinks:
-graph_type: bar
-computation_units:
+FrequencyofCollection: null
+IndicatorShortName: Gross Fixed Capital Formation Growth
+IntendedDirection: null
+Limitations: null
+NSDPIndicatorID: ECO 4.1.1
+OtherDemandSources: null
+PillarName: Economy
+PolicyLinkage: null
+PreferredDataSource: null
+PrimaryCollectionSystem: null
+Purpose/Rationale: null
+Range: null
+RelatedLinks: null
+ResponsibleAgency: null
+SourceTag: 'Table 10 : Growth Rates - Constant Price GDP by Expenditure'
 source_active_1: true
-source_organisation_1: "2017 Statistical Release: GDP Highlights (p11), VNSO"
-data_non_statistical: false
-graph_title: Growth in Gross Fixed Capital Formation
+source_organisation_1: '2017 Statistical Release: GDP Highlights (p11), VNSO'

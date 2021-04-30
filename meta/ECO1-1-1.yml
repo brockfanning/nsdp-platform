@@ -1,35 +1,31 @@
-PillarName: Economy
-NSDPIndicatorID: ECO 1.1.1
-IndicatorShortName: Underlying Inflation Rate
+AlternativeDataSource: null
+Assumptions: null
+Calculation/Formulation: null
 Definition: Total rate of change of CPI from previouse year
-Calculation/Formulation:
-Range:
-Assumptions:
-Limitations:
-IntendedDirection:
-Purpose/Rationale:
-PolicyLinkage:
-PreferredDataSource:
-AlternativeDataSource:
-SourceTag: "Table 1 CPI December Quarter"
-PrimaryCollectionSystem:
-FrequencyofCollection:
-OtherDemandSources:
-ResponsibleAgency:
-RelatedLinks:
-graph_type: bar
-computation_units:
+FrequencyofCollection: null
+IndicatorShortName: Underlying Inflation Rate
+IntendedDirection: null
+Limitations: null
+NSDPIndicatorID: ECO 1.1.1
+OtherDemandSources: null
+PillarName: Economy
+PolicyLinkage: null
+PreferredDataSource: null
+PrimaryCollectionSystem: null
+Purpose/Rationale: null
+Range: null
+RelatedLinks: null
+ResponsibleAgency: null
+SourceTag: Table 1 CPI December Quarter
 source_active_1: true
-source_organisation_1: "December Quarter Statistical Update 2017 : CPI, VNSO"
 source_active_2: true
-source_organisation_2: "December Quarter Statistical Update 2013 : CPI, VNSO"
 source_active_3: true
-source_organisation_3: "December Quarter Statistical Update 2015 : CPI, VNSO"
 source_active_4: true
-source_organisation_4: "December Quarter Statistical Update 2016 : CPI, VNSO"
 source_active_5: true
-source_organisation_5: "December Quarter Statistical Update 2014 : CPI, VNSO"
 source_active_6: true
-source_organisation_6: "December Quarter Statistical Update 2018 : CPI, VNSO"
-data_non_statistical: false
-graph_title: Change in underlying inflation rate (CPI analysis)
+source_organisation_1: 'December Quarter Statistical Update 2017 : CPI, VNSO'
+source_organisation_2: 'December Quarter Statistical Update 2013 : CPI, VNSO'
+source_organisation_3: 'December Quarter Statistical Update 2015 : CPI, VNSO'
+source_organisation_4: 'December Quarter Statistical Update 2016 : CPI, VNSO'
+source_organisation_5: 'December Quarter Statistical Update 2014 : CPI, VNSO'
+source_organisation_6: 'December Quarter Statistical Update 2018 : CPI, VNSO'

@@ -1,23 +1,19 @@
-PillarName: Economy
-NSDPIndicatorID: ECO 3.1.2
+AlternativeDataSource: null
+Assumptions: null
+Calculation/Formulation: null
+Definition: null
+FrequencyofCollection: null
 IndicatorShortName: Business Participation in Annual Agri-Tourism Festival
-Definition:
-Calculation/Formulation:
-Range:
-Assumptions:
-Limitations:
-IntendedDirection:
-Purpose/Rationale:
-PolicyLinkage:
-PreferredDataSource:
-AlternativeDataSource:
-SourceTag:
-PrimaryCollectionSystem:
-FrequencyofCollection:
-OtherDemandSources:
-ResponsibleAgency:
-RelatedLinks:
-graph_type: bar
-computation_units:
-data_non_statistical: false
-graph_title: Number of businesses participating in the annual agri-tourism festival by sector
+IntendedDirection: null
+Limitations: null
+NSDPIndicatorID: ECO 3.1.2
+OtherDemandSources: null
+PillarName: Economy
+PolicyLinkage: null
+PreferredDataSource: null
+PrimaryCollectionSystem: null
+Purpose/Rationale: null
+Range: null
+RelatedLinks: null
+ResponsibleAgency: null
+SourceTag: null

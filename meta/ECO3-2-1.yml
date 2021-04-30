@@ -1,25 +1,61 @@
-PillarName: Economy
-NSDPIndicatorID: ECO 3.2.1
+AlternativeDataSource: null
+Assumptions: null
+Calculation/Formulation: null
+ComputationMethod: (Amount  of income earned per household annually from toursim)/(Total
+  number of household)
+ComputationUnit: monetary value (vt), percentage (%)
+Concept: Source of Income that is earned by households annually from tourism activities
+  undertaken especially within the rural communities.
+DataSource: '* Department of Trades.
+
+  * department of Tourism'
+Definition: '* Tourism sector has created opportunities to surrounding communities
+  to generate income through selling artefacts and other items they produce including
+  food. Annual household income is the measure of the amount of income available to
+  an average household in the area that is earned through tourism activities to generate
+  income.'
+Dissaggregation: 'Area council, Province, National, Rural/Urban, '
+FrequencyOfCollection: Annually
+FrequencyofCollection: null
+GoalDescription: A strong rural economy that creates opportunities, enables the development
+  of rural communities and increasingly contributes to national prosperity
+GoalId: 3
+IndicatorDescription: Average annual household income from tourism.
+IndicatorId: ECO 3.2.1
 IndicatorShortName: Household Tourism Income
-Definition:
-Calculation/Formulation:
-Range:
-Assumptions:
-Limitations:
-IntendedDirection:
-Purpose/Rationale:
-PolicyLinkage:
-PreferredDataSource:
-AlternativeDataSource:
-SourceTag:
-PrimaryCollectionSystem:
-FrequencyofCollection:
-OtherDemandSources:
-ResponsibleAgency:
-RelatedLinks:
-graph_type: bar
-computation_units:
+IntendedDirection: null
+Limitations: null
+NSDPIndicatorID: ECO 3.2.1
+OtherDemandSources: null
+PillarDescription: Economy
+PillarName: Economy
+PolicyLinkage: null
+PolicyObjectiveDescription: Deepen the integration of the tourism sector into the
+  rural economy to spread opportunities to rural communities
+PolicyObjectiveId: ECO 3.2
+PreferredDataSource: null
+PrimaryCollectionSystem: null
+Proxy: ''
+Purpose/Rationale: null
+Range: null
+Rationale: '* Indicates how much the communities earn from tourism activities annually
+
+  * Depicts creativity in toursim activities within the rural communities.
+
+  * Indicates how much the tourism sector impacts the rural communities in terms of
+  annual income per household.
+
+  '
+RelatedLinks: null
+ResponsibleAgency: null
+SDGAlignment1: ''
+SDGAlignment2: ''
+SDGAlignment3: ''
+SDGAlignment4: ''
+SDGAlignment5: ''
+SourceTag: null
+TargetDescription: 'By 2030 will increase by 10% '
 source_active_1: true
-source_organisation_1: "2010 HIES using (p146) total monthly household income from handicrafts divided by total project number of households (50,740) multiplied by 12 for annual estimate, VNSO"
-data_non_statistical: false
-graph_title: Average annual household income from tourism
+source_organisation_1: 2010 HIES using (p146) total monthly household income from
+  handicrafts divided by total project number of households (50,740) multiplied by
+  12 for annual estimate, VNSO
