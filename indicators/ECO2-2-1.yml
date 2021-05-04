@@ -20,6 +20,7 @@ graph_stacked_disaggregation: ''
 graph_title: Proportion of population with reliable access to safe drinking water
 graph_titles: []
 graph_type: bar
+reporting_status: notstarted
 indicator_name: indicators.ECO2-2-1-title
 indicator_number: ECO2-2-1
 national_geographical_coverage: Vanuatu

@@ -3,3 +3,4 @@ data_non_statistical: false
 graph_title: Change in total number of individuals participating in seasonal work
   programmes
 graph_type: bar
+reporting_status: notstarted
