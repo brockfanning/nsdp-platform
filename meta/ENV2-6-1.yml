@@ -62,11 +62,7 @@ Rationale: "* Promote a sustainable and clean Environment for all\n* Promote man
   \ and poor environmental management"
 RelatedLinks: null
 ResponsibleAgency: null
-SDGAlignment1: '13.a.1 (R) (Tier 3) '
-SDGAlignment2: 17.7.1 (Tier 3)
-SDGAlignment3: ''
-SDGAlignment4: ''
-SDGAlignment5: ''
+SDGAlignment: 13.a.1 (R) (Tier 3) , 17.7.1 (Tier 3)
 SourceTag: null
 TargetDescription: Government expenditure for environmental activities has increased
   by at least 15 million vatu from the 2016 baseline

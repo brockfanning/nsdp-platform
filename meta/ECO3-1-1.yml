@@ -53,11 +53,7 @@ Rationale: ' Indicates how much these sectors impact the economy and is measured
   their proportion of GDP'
 RelatedLinks: null
 ResponsibleAgency: null
-SDGAlignment1: "8.9.1\n (Tier 2)"
-SDGAlignment2: 8.9.2 (Tier 2)
-SDGAlignment3: ''
-SDGAlignment4: ''
-SDGAlignment5: ''
+SDGAlignment: "8.9.1\n (Tier 2), 8.9.2 (Tier 2)"
 SourceTag: null
 TargetDescription: By 2030 proportion increase by 40%
 source_active_1: true
