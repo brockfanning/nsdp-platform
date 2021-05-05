@@ -19,7 +19,7 @@ graph_limits: []
 graph_stacked_disaggregation: ''
 graph_title: Value and volume of national trade/merchandise trade
 graph_titles: []
-graph_type: bar
+graph_type: line
 indicator_name: indicators.ECO1-4-1-title
 indicator_number: ECO1-4-1
 national_geographical_coverage: Vanuatu
