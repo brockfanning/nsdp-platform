@@ -3,3 +3,4 @@ data_non_statistical: false
 graph_title: Incidents of theft and vandalism reported annually to the police (and
   the proportion of reported incidents to unreported)
 graph_type: bar
+reporting_status: notstarted

@@ -3,3 +3,4 @@ data_non_statistical: false
 graph_title: Total number of new users of financial services annual, acknowledging
   pop growth (number accounts opening/year)
 graph_type: bar
+reporting_status: notstarted

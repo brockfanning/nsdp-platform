@@ -3,3 +3,4 @@ data_non_statistical: false
 graph_title: Average traveling distance to nearest school, health facility, police
   post by province
 graph_type: bar
+reporting_status: notstarted

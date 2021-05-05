@@ -3,3 +3,4 @@ data_non_statistical: false
 graph_title: Crop diversity index with a focus on fruit and vegetables (average number
   of varieties planted of crops by province)
 graph_type: bar
+reporting_status: notstarted
