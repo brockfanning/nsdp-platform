@@ -52,10 +52,6 @@ Rationale: 'The rationale is to highlight the proportion of people who have unde
   adaptation. '
 RelatedLinks: null
 ResponsibleAgency: null
-SDGAlignment1: "2.3.1 \n(Tier 3) "
-SDGAlignment2: 2.3.2 (Tier 3)
-SDGAlignment3: ''
-SDGAlignment4: ''
-SDGAlignment5: ''
+SDGAlignment: "2.3.1 \n(Tier 3) , 2.3.2 (Tier 3)"
 SourceTag: null
 TargetDescription: Agriculture Census Information required.

@@ -56,10 +56,6 @@ Rationale: "Indicates how the responsible government institutions (NDMO, VMDG, C
   \ made disasters that may arise in the future."
 RelatedLinks: null
 ResponsibleAgency: null
-SDGAlignment1: 13.b.1
-SDGAlignment2: ''
-SDGAlignment3: ''
-SDGAlignment4: ''
-SDGAlignment5: ''
+SDGAlignment: 13.b.1
 SourceTag: null
 TargetDescription: 80% of communities have access to support plans

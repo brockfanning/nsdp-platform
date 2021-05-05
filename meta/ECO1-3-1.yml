@@ -58,10 +58,6 @@ Rationale: '* Captures the expenses of the government over the year.
   '
 RelatedLinks: null
 ResponsibleAgency: null
-SDGAlignment1: 17.4.1 (Tier 1)
-SDGAlignment2: ''
-SDGAlignment3: ''
-SDGAlignment4: ''
-SDGAlignment5: ''
+SDGAlignment: 17.4.1 (Tier 1)
 SourceTag: null
 TargetDescription: By 2030 increase by 15%

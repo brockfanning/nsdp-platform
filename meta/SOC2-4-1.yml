@@ -48,11 +48,7 @@ Rationale: "|> To improve standard and Quality of education of schooling in both
   \ for scholarships |> To track trends from previous years."
 RelatedLinks: null
 ResponsibleAgency: null
-SDGAlignment1: '4.3.1 (Tier 2) '
-SDGAlignment2: 4.b.1 (Tier 1)
-SDGAlignment3: ''
-SDGAlignment4: ''
-SDGAlignment5: ''
+SDGAlignment: 4.3.1 (Tier 2) , 4.b.1 (Tier 1)
 SourceTag: null
 TargetDescription: 80 % (60 technical, vocational and post schools to be certified
   and registered)

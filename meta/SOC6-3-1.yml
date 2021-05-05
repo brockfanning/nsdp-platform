@@ -41,11 +41,7 @@ Rationale: To depict the total number of eligible voters that voted in the last 
   it is proactive or not.
 RelatedLinks: null
 ResponsibleAgency: null
-SDGAlignment1: 16.7.2 (Tier 3)
-SDGAlignment2: ''
-SDGAlignment3: ''
-SDGAlignment4: ''
-SDGAlignment5: ''
+SDGAlignment: 16.7.2 (Tier 3)
 SourceTag: null
 TargetDescription: Target TBD after baseline established
 source_active_1: true

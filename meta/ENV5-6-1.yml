@@ -60,10 +60,6 @@ Rationale: "The establishment of this database was to gather for a central shari
   \ reporting\u2019s."
 RelatedLinks: null
 ResponsibleAgency: null
-SDGAlignment1: '15.9.1 (Tier 3) '
-SDGAlignment2: ' 15.a.1 (Tier 1)'
-SDGAlignment3: ''
-SDGAlignment4: ''
-SDGAlignment5: ''
+SDGAlignment: 15.9.1 (Tier 3) ,  15.a.1 (Tier 1)
 SourceTag: null
 TargetDescription: 1 central information sharing system for environment data is established

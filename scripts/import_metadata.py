@@ -39,5 +39,19 @@ for index, row in meta_df.iterrows():
         meta = yaml.load(stream, Loader=yaml.FullLoader)
     for key, value in row.iteritems():
         meta[key] = row[key]
+    meta['SDGAlignment'] = meta['SDGAlignment1']
+    if meta['SDGAlignment2'] != '':
+        meta['SDGAlignment'] += ', ' + meta['SDGAlignment2']
+    if meta['SDGAlignment3'] != '':
+        meta['SDGAlignment'] += ', ' + meta['SDGAlignment3']
+    if meta['SDGAlignment4'] != '':
+        meta['SDGAlignment'] += ', ' + meta['SDGAlignment4']
+    if meta['SDGAlignment5'] != '':
+        meta['SDGAlignment'] += ', ' + meta['SDGAlignment5']
+    del meta['SDGAlignment1']
+    del meta['SDGAlignment2']
+    del meta['SDGAlignment3']
+    del meta['SDGAlignment4']
+    del meta['SDGAlignment5']
     with open(meta_path, 'w') as stream:
         yaml.dump(meta, stream)
