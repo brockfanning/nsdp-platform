@@ -54,25 +54,10 @@ prose:
             element: text
             translation_key: "SDG Alignment1"
             scope: national
-      - name: "SDGAlignment2"
+      - name: "SDGAlignment"
         field:
             element: text
-            translation_key: "SDG Alignment2"
-            scope: national
-      - name: "SDGAlignment3"
-        field:
-            element: text
-            translation_key: "SDG Alignment3"
-            scope: national
-      - name: "SDGAlignment4"
-        field:
-            element: text
-            translation_key: "SDG Alignment4"
-            scope: national
-      - name: "SDGAlignment5"
-        field:
-            element: text
-            translation_key: "SDG Alignment5"
+            translation_key: "SDG Alignment"
             scope: national
       - name: "Definition"
         field:
@@ -119,100 +104,6 @@ prose:
             element: text
             translation_key: "Frequency Of Collection"
             scope: national
-      - name: "PillarName"
-        field:
-            element: text
-            translation_key: "Pillar name"
-            scope: national
-      - name: "goal_name"
-        field:
-            element: text
-            translation_key: "Goal name"
-            scope: national
-      - name: "indicator_name"
-        field:
-            element: text
-            translation_key: metadata_fields.indicator_name
-            scope: national
-      - name: "NSDPIndicatorID"
-        field:
-            element: text
-            translation_key: metadata_fields.indicator
-            scope: national
-      - name: "target_name"
-        field:
-            element: text
-            translation_key: Policy objective name
-            scope: national
-      - name: "target_number"
-        field:
-            element: text
-            translation_key: Policy objective
-            scope: national
-      - name: "national_geographical_coverage"
-        field:
-            element: text
-            translation_key: metadata_fields.national_geographical_coverage
-            scope: national
-      - name: "computation_units"
-        field:
-            element: text
-            translation_key: metadata_fields.computation_units
-            scope: national
-      - name: "Calculation/Formulation"
-        field:
-            element: text
-            translation_key: metadata_fields.computation_calculations
-            scope: national
-      - name: "Limitations"
-        field:
-            element: text
-            translation_key: metadata_fields.comments_limitations
-            scope: national
-      - name: "Purpose/Rationale"
-        field:
-            element: text
-            translation_key: metadata_fields.rational_interpretation
-            scope: national
-      - name: "PolicyLinkage"
-        field:
-            element: text
-            translation_key: "Policy Linkage"
-            scope: national
-      - name: "Range"
-        field:
-            element: text
-            translation_key: "Range"
-            scope: national
-      - name: "Assumptions"
-        field:
-            element: text
-            translation_key: "Assumptions"
-            scope: national
-      - name: "IntendedDirection"
-        field:
-            element: text
-            translation_key: "Intended direction"
-            scope: national
-      - name: "reporting_status"
-        field:
-            element: select
-            label: "Reporting status"
-            translation_key: metadata_fields.reporting_status
-            options:
-              - name: 'complete'
-                value: 'complete'
-                translation_key: status.reported_online
-              - name: 'inprogress'
-                value: 'inprogress'
-                translation_key: status.statistics_in_progress
-              - name: 'notstarted'
-                value: 'notstarted'
-                translation_key: status.exploring_data_sources
-              - name: 'notapplicable'
-                value: 'notapplicable'
-                translation_key: status.not_applicable
-            scope: data
       ## Source 1
       - name: source_active_1
         field:
@@ -249,40 +140,4 @@ prose:
             label: "Organisation"
             translation_key: metadata_fields.source_organisation_1
             scope: source_3
-      ## Source 4
-      - name: source_active_4
-        field:
-            element: checkbox
-            label: Source 4 active
-            translation_key: metadata_fields.source_active_1
-      - name: source_organisation_4
-        field:
-            element: text
-            label: "Organisation"
-            translation_key: metadata_fields.source_organisation_1
-            scope: source_4
-      ## Source 5
-      - name: source_active_5
-        field:
-            element: checkbox
-            label: Source 5 active
-            translation_key: metadata_fields.source_active_1
-      - name: source_organisation_5
-        field:
-            element: text
-            label: "Organisation"
-            translation_key: metadata_fields.source_organisation_1
-            scope: source_5
-      ## Source 6
-      - name: source_active_6
-        field:
-            element: checkbox
-            label: Source 6 active
-            translation_key: metadata_fields.source_active_1
-      - name: source_organisation_6
-        field:
-            element: text
-            label: "Organisation"
-            translation_key: metadata_fields.source_organisation_1
-            scope: source_6
   ignore: ['/scripts', '/.github']
