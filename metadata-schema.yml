@@ -74,6 +74,21 @@ prose:
             element: text
             translation_key: "SDG Alignment5"
             scope: national
+      - name: "Definition"
+        field:
+            element: text
+            translation_key: metadata_fields.computation_definitions
+            scope: national
+      - name: "Concept"
+        field:
+            element: text
+            translation_key: Concept
+            scope: national
+      - name: "Rationale"
+        field:
+            element: text
+            translation_key: Rationale
+            scope: national
       - name: "ComputationMethod"
         field:
             element: text
@@ -83,6 +98,16 @@ prose:
         field:
             element: text
             translation_key: "Computation Unit"
+            scope: national
+      - name: "Proxy"
+        field:
+            element: text
+            translation_key: Proxy
+            scope: national
+      - name: "Disaggregation"
+        field:
+            element: text
+            translation_key: Disaggregation
             scope: national
       - name: "DataSource"
         field:
@@ -133,11 +158,6 @@ prose:
         field:
             element: text
             translation_key: metadata_fields.computation_units
-            scope: national
-      - name: "Definition"
-        field:
-            element: text
-            translation_key: metadata_fields.computation_definitions
             scope: national
       - name: "Calculation/Formulation"
         field:
