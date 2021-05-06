@@ -143,10 +143,15 @@ indicator_metadata_form:
     - source_1
     - source_2
     - source_3
-    - source_4
-    - source_5
-    - source_6
-  exclude_fields: []
+  exclude_fields:
+    - PillarCode
+    - PillarDescription
+    - GoalId
+    - GoalDescription
+    - PolicyObjectiveId
+    - PolicyObjectiveDescription
+    - IndicatorId
+    - IndicatorDescription
   translated: true
 languages:
   - en
