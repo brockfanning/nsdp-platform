@@ -6,13 +6,9 @@ breadcrumbs:
   goal:
     - path: /
       label: general.home
-    - path: /goals/
-      label: general.goals
   indicator:
     - path: /
       label: general.home
-    - path: /goals/
-      label: general.goals
   post:
     - path: /
       label: general.home
@@ -32,10 +28,6 @@ create_pages:
   - filename: ''
     folder: /
     layout: frontpage-alt
-    title: ''
-  - filename: ''
-    folder: /goals
-    layout: goals
     title: ''
   - filename: ''
     folder: /reporting-status
@@ -197,9 +189,6 @@ map_options:
     color: '#172d44'
     dashArray: '5,5'
 menu:
-  - path: /goals/
-    translation_key: 15 Goals
-    dropdown: []
   - path: /reporting-status/
     translation_key: Evaluation
     dropdown:
