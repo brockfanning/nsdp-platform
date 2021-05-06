@@ -49,11 +49,6 @@ prose:
             element: text
             translation_key: "Target"
             scope: national
-      - name: "SDGAlignment1"
-        field:
-            element: text
-            translation_key: "SDG Alignment1"
-            scope: national
       - name: "SDGAlignment"
         field:
             element: text
