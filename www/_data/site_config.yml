@@ -44,7 +44,7 @@ create_pages:
 custom_css: []
 custom_js:
   - /assets/js/custom.js
-data_edit_url: https://github.com/Vanuatu-National-Statistics-Office/vnso-nsdp-platform/blob/develop/data/indicator_[id].csv
+data_edit_url: data
 data_fields:
   units: ''
   series: ''
@@ -80,7 +80,7 @@ frontpage_cards:
     button_label: VNSO Website
     button_link: 'https://vnso.gov.vu'
     rule_color: ''
-  - title: Department of Strategic Policy, Planning & Aid Coordination
+  - title: 'Department of Strategic Policy, Planning & Aid Coordination'
     content: ''
     include: dsppac-card.html
     button_label: DSPPAC Website
@@ -122,6 +122,10 @@ indicator_config_form:
   repository_link: >-
     https://github.com/Vanuatu-National-Statistics-Office/vnso-nsdp-platform/tree/develop/indicators
   translation_link: ''
+indicator_data_form:
+  enabled: true
+  repository_link: >-
+    https://github.com/Vanuatu-National-Statistics-Office/vnso-nsdp-platform/tree/develop/data
 indicator_metadata_form:
   enabled: true
   dropdowns: []
