@@ -216,7 +216,7 @@ menu:
   - path: /natural-disasters/
     translation_key: Disaster statistics
     dropdown: []
-  - path: /area-council-profiles/
+  - path: /census/
     translation_key: Area council profiles
     dropdown: []
 metadata_edit_url: metadata
