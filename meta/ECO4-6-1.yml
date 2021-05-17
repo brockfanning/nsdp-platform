@@ -1,21 +1,61 @@
 AlternativeDataSource: null
 Assumptions: null
 Calculation/Formulation: null
-Definition: null
+ComputationMethod: '* Labour force participation rate = (labour force)/(potential
+  workers) x 100
+
+  *Number of Labour force participation by sector'
+ComputationUnit: '*hours of work
+
+  *rate of production'
+Concept: '* It measures to evaluate working age population in an economy. People who
+  are still undergoing studies, housewives and persons above the age of 64 are not
+  reckoned in the labour force.
+
+  * Labour force participation rate can decrease when the rate of growth of the population
+  outweighs that of the employed and unemployed together. It is one of the key components
+  in long term economic growth.  '
+DataSource: '* National Population and Housing Census (VNSO)
+
+
+  * NSDP Baseline Survey (VNSO)'
+Definition: "Labour force participation measures an economy\u2019s active labour force\
+  \ and refers to the number of people who are either employed or are actively looking\
+  \ for work.\nIt is also defined as the section of working population in the age\
+  \ group of 16-64 in the economy."
+Dissaggregation: "* Labour force (Employed + Unemployed)\n* Employment status\n* Age\n\
+  \ * Sex"
+FrequencyOfCollection: '*NSDP- HIES(3-5 years
+
+  *National Population & Housing Census (10 years)'
 FrequencyofCollection: null
+GoalDescription: An enabling business environment, creating opportunities and employment
+  for entrepreneurs throughout Vanuatu
+GoalId: 4
+IndicatorDescription: 'Labour force participation by sector '
+IndicatorId: ECO 4.6.1
 IndicatorShortName: Labour Force Participation Rate
 IntendedDirection: null
 Limitations: null
 NSDPIndicatorID: ECO 4.6.1
 OtherDemandSources: null
+PillarDescription: Economy
 PillarName: Economy
 PolicyLinkage: null
+PolicyObjectiveDescription: Ensure the health and safety, employment rights and skills
+  development of the workforce
+PolicyObjectiveId: ECO 4.6
 PreferredDataSource: null
 PrimaryCollectionSystem: null
+Proxy: 'No'
 Purpose/Rationale: null
 Range: null
+Rationale: "* To measure the wages and benefits \n* For policy making \n* For job\
+  \ security & protection"
 RelatedLinks: null
 ResponsibleAgency: null
+SDGAlignment: 8.8.1, 8.8.2
 SourceTag: null
+TargetDescription: By 2020 increase 15%
 source_active_1: true
 source_organisation_1: 2009 Population and Household Census (p111), VNSO

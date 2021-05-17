@@ -1,21 +1,62 @@
 AlternativeDataSource: null
 Assumptions: null
 Calculation/Formulation: null
-Definition: null
+ComputationMethod: Number of Population which get access to technology that convey
+  early warnings divided by total number of populations which access to technology
+  multiply by 100
+ComputationUnit: Percentage (%)
+Concept: The growth in technology and use of social media offers an opportunity for
+  supplementary and complementary information alongside existing sources. Social media
+  data can collect additional information to monitor hazards, assess exposure and
+  vulnerability, guide disaster response, assess the resilience of natural systems,
+  and engage with communities.
+DataSource: "* National Disaster and  Management Office, \n* Department of Meteorology\n\
+  * Digicel Vanuatu\n* Vodafone Vanuatu"
+Definition: The methods for gaining access to a computer system or network such as
+  dial-up modem, cable modem, DSL, satellite and wireless.
+Dissaggregation: '* Sex
+
+  * Disability
+
+  * Area Council Level
+
+  * Rural/Urban
+
+  * Provincial Level
+
+  * National Level'
+FrequencyOfCollection: ''
 FrequencyofCollection: null
+GoalDescription: A strong and resilient nation in the face of climate change and disaster
+  risks posed by natural and man-made hazards.
+GoalId: ENV 3
+IndicatorDescription: Proportion of population with access to technologies that convey
+  early warnings
+IndicatorId: ENV 3.2.2
 IndicatorShortName: Access to Early Warning Techologies
 IntendedDirection: null
 Limitations: null
 NSDPIndicatorID: ENV 3.2.2
 OtherDemandSources: null
+PillarDescription: Environment
 PillarName: Environment
 PolicyLinkage: null
+PolicyObjectiveDescription: Improve monitoring and early warning systems.
+PolicyObjectiveId: ENV 3.2
 PreferredDataSource: null
 PrimaryCollectionSystem: null
+Proxy: ''
 Purpose/Rationale: null
 Range: null
+Rationale: Information and knowledge about a natural hazard event as it unfolds are
+  vital to ensure effective preparedness and response to disasters. Those responsible
+  for making decisions in advance of and in response to disasters need to know as
+  much as they can about what the situation is and how it is unfolding. Citizens affected
+  on the ground need to know how to stay safe or where they can obtain supplies.
 RelatedLinks: null
 ResponsibleAgency: null
+SDGAlignment: ''
 SourceTag: null
+TargetDescription: 80% of the population has access to technologies that convey early.
 source_active_1: true
 source_organisation_1: 2016 Mini Census (p207), VNSO

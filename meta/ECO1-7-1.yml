@@ -1,19 +1,47 @@
 AlternativeDataSource: null
 Assumptions: null
 Calculation/Formulation: null
-Definition: null
+ComputationMethod: Number of productions of major commodities including copra and
+  cocoa
+ComputationUnit: volume(tonne, littre,cubic meter,gallon)
+Concept: "There are three level of production, Primary which is more concern with\
+  \ the extraction of raw materials from the earth\u2019s surface for instance farming\
+  \ and fishing. Secondary, this is made up of manufacturing or processing and construction.\
+  \ Lastly tertiary, made up of services used to aid the other two levels of production."
+DataSource: Trade statistics(vnso)
+Definition: 'Level of production refers to the amount that is produced. It is a way
+  of classifying production. The amount that is produced or the level of operation
+  of production of a country is affected by the resources available and the extent
+  to which a country is able to exploit the resources available '
+Dissaggregation: "*Area council \n*province\n* National \n*types ofcommodities"
+FrequencyOfCollection: Month & Anually
 FrequencyofCollection: null
+GoalDescription: A stable and prosperous economy, encouraging trade, investment and
+  providing economic opportunities for all members of society throughout Vanuatu
+GoalId: 1
+IndicatorDescription: Level of production of major commodities to include cocoa and
+  copra
+IndicatorId: ECO 1.7.1
 IndicatorShortName: Major Commodity Production Volume Cocoa
 IntendedDirection: null
 Limitations: null
 NSDPIndicatorID: ECO 1.7.1
 OtherDemandSources: null
+PillarDescription: Economy
 PillarName: Economy
 PolicyLinkage: null
+PolicyObjectiveDescription: Stimulate economic diversification to spread the benefits
+  of growth and increase economic stability
+PolicyObjectiveId: ECO 1.7
 PreferredDataSource: null
 PrimaryCollectionSystem: null
+Proxy: 'No'
 Purpose/Rationale: null
 Range: null
+Rationale: "\_\_\_ To identify the country\u2019s main level of production with the\
+  \ level of available resources it has."
 RelatedLinks: null
 ResponsibleAgency: null
+SDGAlignment: 8.2.1(tier1)
 SourceTag: null
+TargetDescription: By 2030 increase by 15%
