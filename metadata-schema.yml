@@ -4,11 +4,6 @@
 prose:
   metadata:
     meta:
-      - name: "PillarCode"
-        field:
-            element: text
-            translation_key: "Pillar Code"
-            scope: national
       - name: "PillarDescription"
         field:
             element: text
