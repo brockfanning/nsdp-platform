@@ -52,6 +52,72 @@ body {
             padding: 5px;
         }
     }
-
 }
 
+$pillar-color-SOC: #D7B629;
+$pillar-color-ECO: #CF1C32;
+$pillar-color-ENV: #6EAC47;
+
+.goal-number-SOC1,
+.goal-number-SOC2,
+.goal-number-SOC3,
+.goal-number-SOC4,
+.goal-number-SOC5,
+.goal-number-SOC6 {
+    .previous-next-links {
+        .btn-primary {
+            background-color: $pillar-color-SOC;
+            border-color: $pillar-color-SOC;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+    .goal-banner {
+        border-top: 10px solid $pillar-color-SOC;
+        margin-top: 10px;
+        border-bottom: 10px solid $pillar-color-SOC;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+}
+.goal-number-ENV1,
+.goal-number-ENV2,
+.goal-number-ENV3,
+.goal-number-ENV4,
+.goal-number-ENV5 {
+    .previous-next-links {
+        .btn-primary {
+            background-color: $pillar-color-ENV;
+            border-color: $pillar-color-ENV;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+    .goal-banner {
+        border-top: 10px solid $pillar-color-ENV;
+        margin-top: 10px;
+        border-bottom: 10px solid $pillar-color-ENV;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+}
+.goal-number-ECO1,
+.goal-number-ECO2,
+.goal-number-ECO3,
+.goal-number-ECO4 {
+    .previous-next-links {
+        .btn-primary {
+            background-color: $pillar-color-ECO;
+            border-color: $pillar-color-ECO;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+    .goal-banner {
+        border-top: 10px solid $pillar-color-ECO;
+        margin-top: 10px;
+        border-bottom: 10px solid $pillar-color-ECO;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+}
