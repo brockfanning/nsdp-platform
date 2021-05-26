@@ -47,5 +47,5 @@ exclude:
   - LICENSE
   - Makefile
 disclaimer:
-  phase: 
+  phase: BETA
    
