@@ -87,9 +87,9 @@ frontpage_cards:
     button_link: 'https://dsppac.gov.vu/'
     rule_color: ''
 frontpage_goals_grid:
-  title: Our data for National Sustainable Development Plan indicators
+  title: Indicators of the National Sustainable Development Plan
   description: >-
-    Click on each goal for our National Sustainable Development Plan indicator
+    Click on each goal for Vanuatu National Sustainable Development Plan indicator
     data.
 frontpage_heading: ''
 frontpage_instructions: ''
@@ -188,36 +188,36 @@ map_options:
     dashArray: '5,5'
 menu:
   - path: /reporting-status/
-    translation_key: Evaluation
+    translation_key: EVALUATION
     dropdown:
       - path: /reporting-status/
-        translation_key: Data availability
+        translation_key: DATA AVAILABILITY
       - path: /indicator-overview/
-        translation_key: Indicator overview
+        translation_key: INDICATOR OVERVIEW
       - path: /methodology/
-        translation_key: Methodology
+        translation_key: METHODOLOGY
   - path: /about/
-    translation_key: About us
+    translation_key: ABOUT US
     dropdown:
       - path: /about/
-        translation_key: NSPD Online Platform
+        translation_key: NSPD ONLINE PLATFORM
       - path: /technical-advice/
-        translation_key: Technical advice
+        translation_key: TECHNICAL ADVICE
   - path: /2030-agenda/
-    translation_key: Useful information
+    translation_key: USEFUL INFORMATION
     dropdown:
       - path: /2030-agenda/
-        translation_key: 2030 agenda
+        translation_key: 2030 AGENDA
       - path: /publications/
-        translation_key: Publications
+        translation_key: PUBLICATIONS
   - path: /government-financial-statistics/
-    translation_key: Government financial statistics
+    translation_key: GOVERNMENT FINANCIAL STATISTICS
     dropdown: []
   - path: /natural-disasters/
-    translation_key: Disaster statistics
+    translation_key: DISASTER STATISTICS
     dropdown: []
   - path: /census/
-    translation_key: Area council profiles
+    translation_key: AREA COUNCIL PROFILES
     dropdown: []
 metadata_edit_url: metadata
 metadata_tabs:
