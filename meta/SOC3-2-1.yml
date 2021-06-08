@@ -1,8 +1,11 @@
 AlternativeDataSource: null
 Assumptions: null
-Calculation/Formulation: null
-Definition: null
-FrequencyofCollection: null
+Calculation/Formulation: (number of diabetic amputation)/(total pop) X 100
+Concept: 'A nonhealing ulcer that causes severe damage to tissues and bone may require surgical removal (amputation) of a toe,
+foot or part of a leg. Some people with diabetes are more at risk than others.
+Factors that lead to an increased risk of an amputation include High blood sugar levels.'
+Definition: The number of People living with diabetes, they have an increased risk of lower limb amputation. 
+FrequencyofCollection: Monthly & Annually
 IndicatorShortName: Non-Communicable Disease Amputations
 IntendedDirection: null
 Limitations: null
@@ -12,10 +15,13 @@ PillarName: Society
 PolicyLinkage: null
 PreferredDataSource: null
 PrimaryCollectionSystem: null
+proxy: No
 Purpose/Rationale: null
 Range: null
 RelatedLinks: null
 ResponsibleAgency: null
 SourceTag: null
 source_active_1: true
-source_organisation_1: 2011 STEP Report, Health and WHO
+source_organisation_1: 'Health Information System 
+Ministry of Health Vanuatu'
+Unit of Measurement: Percentage (%)
