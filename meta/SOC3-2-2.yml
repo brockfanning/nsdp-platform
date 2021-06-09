@@ -2,7 +2,7 @@
    By 2020, the incidence of TB in Vanuatu has reduced by 20% compared to 2015 
    By 2025-50% reduction 
    By 2030- 80% reduction
-SDGAlignment: 
+SDGAlignment: '' 
 Definition: >-
   The tuberculosis incidence per 100,000 population as defined as the estimated
   number of new and relapse TB cases (all forms of TB, including cases in people
@@ -22,7 +22,7 @@ Rationale: >-
   the SDGs.
 ComputationMethod: (number of TB incidence) / (total pop) X 100
 ComputationUnit: Percentage (%)
-Proxy: 'No'
+Proxy: 'Yes'
 Disaggregation: |-
   •  Age
   • Geographic location
