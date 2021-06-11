@@ -46,7 +46,5 @@ exclude:
   - README.md
   - LICENSE
   - Makefile
-disclaimer:
-  phase:
-  message: 
+ 
    
