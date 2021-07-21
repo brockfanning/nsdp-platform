@@ -13,6 +13,6 @@ In most cases, an indicator should achieve a specific absolute or relative targe
 ![image](https://user-images.githubusercontent.com/66281541/126473676-404819da-5d23-4217-a349-d076ce950de1.png) Although the indicator is developing in the desired direction towards the target, if the development continues, the target in the target year would be missed by more than 20% of the difference between the target value and the current value.
 ![image](https://user-images.githubusercontent.com/66281541/126473833-91001b75-4dd0-4c9f-8b93-ed4518104d74.png) The distance to the target is constantly high or increasing. The indicator is not developing in the desired direction. 
  
- **Reviews over time**
+###### Reviews over time
 The overview table also shows the ratings of an indicator based on the status of the previous years. This shows whether the weather symbol for an indicator has been stable or rather volatile over the past few years.
 
