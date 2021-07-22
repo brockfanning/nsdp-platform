@@ -213,12 +213,17 @@ menu:
   - path: /government-financial-statistics/
     translation_key: GOVERNMENT FINANCIAL STATISTICS
     dropdown: []
-  - path: /natural-disasters/
-    translation_key: DISASTER STATISTICS
-    dropdown: []
-  - path: /census/
-    translation_key: AREA COUNCIL PROFILES
-    dropdown: []
+  - path: /economic-statistics/
+    translation_key: ECONOMIC STATISTICS
+    dropdown:
+      - path: /gdp-constant-prizes/
+      - translation_key: GDP CONSTANT PRIZES
+      - path: /gdp-growth-rate
+  - path: /population-profiles/
+    translation_key: POPULATION PROFILES
+    dropdown:
+      - path: demographics
+      - translation_key: DEMOGRAPHICS
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
