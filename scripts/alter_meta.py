@@ -11,7 +11,9 @@ def alter_meta(meta, context):
     # Auto-calculate settings based on the indicator id.
     indicator_id = context['indicator_id']
     indicator_id_parts = indicator_id.split('-')
-    if len(indicator_id_parts) == 3:
+    first_part = indicator_id_parts[0]
+    is_in_framework = first_part.startswith('ENV') or first_part.startswith('ECO') or first_part.startswith('SOC')
+    if len(indicator_id_parts) == 3 and is_in_framework:
 
         # These are used by Open SDG.
         meta['indicator_number'] = indicator_id

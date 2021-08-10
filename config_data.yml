@@ -14,8 +14,6 @@ docs_baseurl: /vnso-nsdp-platform
 # languages. Each build is in its own subfolder - one for each language.
 languages:
   - en
-  - bi
-  - fr
 
 # Destination directory
 # ---------------------

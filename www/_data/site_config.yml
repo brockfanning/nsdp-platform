@@ -1,4 +1,4 @@
-﻿accessible_charts: true
+accessible_charts: true
 accessible_tabs: true
 analytics:
   ga_prod: ''
@@ -145,8 +145,6 @@ indicator_metadata_form:
   translated: true
 languages:
   - en
-  - bi
-  - fr
 languages_public: []
 logos:
   - language: ''
@@ -195,19 +193,16 @@ menu:
       - path: /indicator-overview/
         translation_key: INDICATOR OVERVIEW
       - path: /methodology/
-        translation_key: METHODOLOGY
-  - path: /about/
-    translation_key: ABOUT US
-    dropdown:
-      - path: /about/
-        translation_key: NSPD ONLINE PLATFORM
-      - path: /technical-advice/
-        translation_key: TECHNICAL ADVICE
+        translation_key: METHODOLOGY 
   - path: /2030-agenda/
     translation_key: USEFUL INFORMATION
     dropdown:
       - path: /2030-agenda/
         translation_key: 2030 AGENDA
+      - path: /about/
+        translation_key: NSPD ONLINE PLATFORM
+      - path: /technical-advice/
+        translation_key: TECHNICAL ADVICE
       - path: /publications/
         translation_key: PUBLICATIONS
   - path: /government-financial-statistics/
