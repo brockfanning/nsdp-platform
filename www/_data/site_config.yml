@@ -145,8 +145,6 @@ indicator_metadata_form:
   translated: true
 languages:
   - en
-  - bi
-  - fr
 languages_public: []
 logos:
   - language: ''
