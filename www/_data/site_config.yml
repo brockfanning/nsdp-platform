@@ -212,14 +212,14 @@ menu:
     translation_key: ECONOMIC STATISTICS
     dropdown:
       - path: /gdp-constant-price/
-      - translation_key: GDP CONSTANT PRICE
+        translation_key: GDP CONSTANT PRICE
       - path: /gdp-growth-rate/
-      - translation_key: GDP GROWTH RATE
+        translation_key: GDP GROWTH RATE
   - path: /population-profiles/
     translation_key: POPULATION PROFILES
     dropdown:
       - path: demographics
-      - translation_key: DEMOGRAPHICS
+        translation_key: DEMOGRAPHICS
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
