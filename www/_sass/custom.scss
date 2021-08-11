@@ -78,6 +78,9 @@ $pillar-color-ENV: #6EAC47;
         border-bottom: 10px solid $pillar-color-SOC;
         padding-bottom: 10px;
         margin-bottom: 10px;
+        h1 {
+            color: $pillar-color-SOC;
+        }
     }
 }
 .goal-number-ENV1,
@@ -99,6 +102,9 @@ $pillar-color-ENV: #6EAC47;
         border-bottom: 10px solid $pillar-color-ENV;
         padding-bottom: 10px;
         margin-bottom: 10px;
+        h1 {
+            color: $pillar-color-ENV;
+        }
     }
 }
 .goal-number-ECO1,
@@ -119,5 +125,8 @@ $pillar-color-ENV: #6EAC47;
         border-bottom: 10px solid $pillar-color-ECO;
         padding-bottom: 10px;
         margin-bottom: 10px;
+        h1 {
+            color: $pillar-color-ECO;
+        }
     }
 }
