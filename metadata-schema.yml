@@ -4,6 +4,11 @@
 prose:
   metadata:
     meta:
+      - name: "OverallConcepts"
+        field:
+            element: text
+            translation_key: "Overall Concepts"
+            scope: national
       - name: "PillarDescription"
         field:
             element: text
