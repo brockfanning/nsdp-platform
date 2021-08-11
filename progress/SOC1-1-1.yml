@@ -1,5 +1,5 @@
 progress:
-  - target: progress.target1
+  - target: "20% increase in exports"
     years:
       - year: 2021
         status: progress.cloudy
