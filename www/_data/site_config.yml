@@ -1,4 +1,4 @@
-accessible_charts: true
+﻿accessible_charts: true
 accessible_tabs: true
 analytics:
   ga_prod: ''
@@ -14,6 +14,7 @@ breadcrumbs:
       label: general.home
     - path: /news/
       label: menu.updates
+contrast_type: default
 country:
   name: Vanuatu
   adjective: Vanuatuan
@@ -89,8 +90,8 @@ frontpage_cards:
 frontpage_goals_grid:
   title: Indicators of the National Sustainable Development Plan
   description: >-
-    Click on each goal for Vanuatu National Sustainable Development Plan indicator
-    data.
+    Click on each goal for Vanuatu National Sustainable Development Plan
+    indicator data.
 frontpage_heading: ''
 frontpage_instructions: ''
 frontpage_introduction_banner:
@@ -106,6 +107,7 @@ graph_color_headline_high_contrast: '#55a6e5'
 graph_color_set: accessible
 graph_color_list: []
 graph_color_number: 0
+graph_title_from_series: false
 header:
   include: header-menu-left-aligned.html
 header_language_toggle: dropdown
@@ -193,7 +195,7 @@ menu:
       - path: /indicator-overview/
         translation_key: INDICATOR OVERVIEW
       - path: /methodology/
-        translation_key: METHODOLOGY 
+        translation_key: METHODOLOGY
   - path: /2030-agenda/
     translation_key: USEFUL INFORMATION
     dropdown:
@@ -233,9 +235,20 @@ news:
 non_global_metadata: indicator.national_metadata
 remote_data_prefix: _build
 reporting_status:
-  title: ''
-  description: ''
+  title: Reporting Status
+  description: >-
+    The reporting status gives you an overview of how many National Sustainable
+    Development Plan indicators (add NSDP link
+    https://www.gov.vu/index.php/resources/vanuatu-2030) of Vanuatu’s 2030
+    People’s Plan can currently be calculated. The time series for the
+    calculation of the indicators are mainly based on data from official
+    statistics, but also use data collected by many other institutions. Where
+    data are available, the indicator is marked as Reported online. If a
+    suitable data source is still being sought for other indicators, these
+    indicators are marked as Exploring data sources.
   disaggregation_tabs: false
+repository_url_data: ''
+repository_url_site: ''
 search_index_boost: []
 search_index_extra_fields: []
 series_toggle: true
@@ -248,6 +261,3 @@ site_config_form:
   translation_link: ''
 validate_indicator_config: false
 validate_site_config: false
-disclaimer:
-  phase: ''
-  message: ''
