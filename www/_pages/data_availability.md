@@ -1,8 +1,10 @@
 ---
-title: Indicator overview
-permalink: /indicator-overview/
+title: Data Availability
+permalink: /reporting-status/
 layout: progress-summary
 ---
+# Reporting Status
+
 The reporting status gives you an overview of how many National Sustainable Development Plan indicators 
 (https://www.gov.vu/index.php/resources/vanuatu-2030) of Vanuatu’s 2030 People’s Plan can currently be calculated. 
 The time series for the calculation of the indicators are mainly based on data from official statistics, but 
