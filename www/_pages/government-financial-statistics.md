@@ -1,5 +1,5 @@
 ---
-title: Government financial statistics
+title: Comprehensive view of Government Expenditure
 permalink: /government-financial-statistics/
 layout: standalone-indicators
 standalone_indicators: []
