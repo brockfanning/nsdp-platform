@@ -3,12 +3,14 @@ title: Status of the Indicators
 permalink: /methodology/
 layout: page
 ---
+# Indicator Status Summary
 
-In order to get a quick overview of the status of the individual indicators, one of four possible weather symbols is shown in the report for each indicator, if calculable. This label is neither a political evaluation nor a prognosis. Instead, the symbols offer an initial assessment of the development, but do not replace the explanatory texts or further analyses and background information. 
+As means of providing at-a-glance information on the status of the sustainability indicators, every indicator is assigned, if calculable, one of four “weather symbols” in the report. This symbol is neither a political appraisal nor a forecast. Instead, the symbols provide a first impression of developments but do not replace a study of the explanatory texts, further analyses and background information. The manner in which the symbols are assigned to the individual indicators depends on the formulation of the respective target.
 
-Indicators with absolute or relative target values
+### Indicators with absolute or relative target values
 
-In most cases, an indicator should achieve a specific absolute or relative target value in a target year. With such a target formulation, the average of the last five annual changes is first determined on the basis of the last six data points. This value is assumed for future annual development up to the target year. In exceptional cases, the calculation of the average change can be made with four or five data points. If fewer than four usable annual values are available, no calculation is made. Building on this development, a hypothetical target value is determined and compared with the specified target value of the indicator. Based on the resulting difference between the two values, one of the following symbols is assigned to the indicator:
+In most of the cases an indicator is supposed to reach a concrete absolute or relative target value by a target year (for example indicator ECO 1.5.2). In the case of such a target formulation, first the average annual change over the last five years is calculated by means of the last six data points. This value is imputed for all years up to the target year. Building on this development, a hypothetical target value is calculated and compared to the predefined target value of the indicator. Based on the resulting difference between these two values, the indicators are assigned one of the following symbols:
+
 
 ![image](https://user-images.githubusercontent.com/66281541/126473419-fae79068-b01b-4e8f-bd0f-5012a45f3e8c.png)If the development continued, the target value would be reached or missed by less than 5% of the difference between the target value and the current value.
 
@@ -18,7 +20,23 @@ In most cases, an indicator should achieve a specific absolute or relative targe
 
 ![image](https://user-images.githubusercontent.com/66281541/126473833-91001b75-4dd0-4c9f-8b93-ed4518104d74.png) The distance to the target is constantly high or increasing. The indicator is not developing in the desired direction. 
  
-## Reviews over time
+In exceptional cases where there are not enough data for the above mentioned calculation to be carried out, the last four consecutive points of time for which data are available will, as a minimum, be used to calculate the average change. In the case of less than four suitable annual values, there will be no calculation.
 
-The overview table also shows the ratings of an indicator based on the status of the previous years. This shows whether the weather symbol for an indicator has been stable or rather volatile over the past few years.
+### Indicators with directional targets without specific target values
+
+In cases where only the targeted direction of the indicator trend is given but no concrete target value (for example indicator ENV 1.1.3), two pieces of information are combined for evaluation: primarily, the average change over the last five years and, subordinately, the last annual change.
+•	If both the average value and the last annual change point in the right direction, the symbol shown is a sun.
+•	If the average trend is moving in the right direction but the last year was characterised by a trend in the wrong direction or no change at all, the sun is partly hidden by a cloud.
+•	If, on the contrary, the average value points in the wrong direction or indicates stagnation while the last year appears to mark a turn in the desired direction, a cloud is shown.
+•	If neither the average value nor the last change point in the right direction, the symbol shown is a thunderstorm.
+
+### Indicators with several target values
+
+•	If several targets are defined for one indicator that are to be reached at the same time (for example indicator 10.1), the development is evaluated individually for each target. The most negative evaluation determines the weather symbol to be assigned to the indicator.
+
+### Comparison of evaluations over time
+
+•	The synoptic table provides information also about the evaluation of an indicator in previous years. It shows if the weather symbol assigned to an indicator was rather stable or volatile in the past years.
+
+
 
