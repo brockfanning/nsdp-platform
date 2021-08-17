@@ -150,7 +150,7 @@ languages:
 languages_public: []
 logos:
   - language: ''
-    src: assets/img/logo tittle.PNG
+    src: assets/img/logo title.png
     alt: National Development Goals 2030
 map_layers:
   - subfolder: area-councils
