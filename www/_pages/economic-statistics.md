@@ -1,6 +1,6 @@
 ---
-title: ECONOMIC STATISTICS
-permalink: /economic-statistics/
+title: Vanuatu Economic Output measured through Goods and Services 
+permalink: /gdp-constant-price/
 layout: page
 ---
 
