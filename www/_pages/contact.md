@@ -25,6 +25,5 @@ Website: www.vnso.gov.vu
 
 Head Office Location (Port-Vila).
 
-complete
 
 
