@@ -62,9 +62,9 @@ footer_language_toggle: none
 footer_menu:
   - path: /contact/
     translation_key: menu.contact_us
-  - path: 'https://https://twitter.com/vnso_stats'
+  - path: 'https://twitter.com/vnso_stats'
     translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
+  - path: 'https://www.facebook.com/vanuatunationalstatisticsoffice'
     translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
