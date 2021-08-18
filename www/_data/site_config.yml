@@ -159,8 +159,8 @@ map_layers:
     max_zoom: 15
     staticBorders: false
 map_options:
-  minZoom: 5
-  maxZoom: 8
+  minZoom: 10
+  maxZoom: 15
   tileURL: ''
   tileOptions:
     id: ''
