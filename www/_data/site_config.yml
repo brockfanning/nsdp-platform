@@ -156,11 +156,11 @@ map_layers:
   - subfolder: area-councils
     label: ''
     min_zoom: 0
-    max_zoom: 20
+    max_zoom: 15
     staticBorders: false
 map_options:
   minZoom: 5
-  maxZoom: 10
+  maxZoom: 8
   tileURL: ''
   tileOptions:
     id: ''
