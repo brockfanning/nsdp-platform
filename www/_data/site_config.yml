@@ -62,7 +62,7 @@ footer_language_toggle: none
 footer_menu:
   - path: /contact/
     translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
+  - path: 'https://https://twitter.com/vnso_stats'
     translation_key: general.twitter
   - path: 'https://facebook.com/MyFacebookAccount'
     translation_key: general.facebook
