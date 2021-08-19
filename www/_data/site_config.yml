@@ -216,6 +216,7 @@ menu:
     dropdown:
       - path: /gdp-constant-price/
         translation_key: GDP CONSTANT PRICE
+        title: GDB CONSTANT PRICE
       - path: /gdp-growth-rate/
         translation_key: GDP GROWTH RATE
   - path: /population-profiles/
