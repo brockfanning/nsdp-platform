@@ -51,8 +51,8 @@ data_fields:
   series: ''
 date_formats: []
 disclaimer:
-  phase: ''
-  message: ''
+  phase: Beta
+  message: This is a Disclaimer message
 email_contacts:
   questions: test@example.com
   suggestions: test@example.com
