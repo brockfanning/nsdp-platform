@@ -52,7 +52,6 @@ data_fields:
 date_formats: []
 disclaimer:
   phase: Beta
-  message: This is a Disclaimer message
 email_contacts:
   questions: test@example.com
   suggestions: test@example.com
