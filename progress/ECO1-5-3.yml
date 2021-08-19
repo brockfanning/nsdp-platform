@@ -2,5 +2,17 @@ progress:
   - target: progress.target1
     years:
       - year: 2021
-        status: progress.cloudy
-        image: cloudy.png
+        status: progress.sunny
+        image: sunny.png
+      - year: 2020
+        status: progress.sunny
+        image: sunny.png
+      - year: 2019
+        status: progress.sunny
+        image: sunnny.png
+      - year: 2018
+        status: progress.sunny
+        image: sunny.png
+      - year: 2017
+        status: progress.sunny
+        image: sunny.png
