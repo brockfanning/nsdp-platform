@@ -136,14 +136,16 @@ indicator_metadata_form:
     - source_2
     - source_3
   exclude_fields:
-    - PillarCode
-    - PillarDescription
-    - GoalId
-    - GoalDescription
-    - PolicyObjectiveId
-    - PolicyObjectiveDescription
-    - IndicatorId
-    - IndicatorDescription
+    - Goal Description
+    - Policy Objective
+    - SDG Alignment
+    - Definition
+    - Concepts
+    - Rationale / Interpretation
+    - Method of computation
+    - Unit of measurement
+    - Disaggregation
+    - Frequency of collection
   translated: true
 languages:
   - en
@@ -236,19 +238,6 @@ non_global_metadata: indicator.national_metadata
 remote_data_prefix: _build
 reporting_status:
   title: Reporting Status
-  description: >-
-    The reporting status gives you an overview of how many National Sustainable
-    Development Plan indicators (add NSDP link
-    https://www.gov.vu/index.php/resources/vanuatu-2030) of Vanuatu’s 2030
-    People’s Plan can currently be calculated. The time series for the
-    calculation of the indicators are mainly based on data from official
-    statistics, but also use data collected by many other institutions. Where
-    data are available, the indicator is marked as Reported online. If a
-    suitable data source is still being sought for other indicators, these
-    indicators are marked as Exploring data sources.
-  disaggregation_tabs: false
-gdp_constant_price:
-  title: GDP Constant Price
   description: >-
     The reporting status gives you an overview of how many National Sustainable
     Development Plan indicators (add NSDP link
