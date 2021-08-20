@@ -21,10 +21,13 @@ graph_title: GDP Constant Price
 graph_titles: []
 graph_type: line
 indicator_available: ''
-indicator_name: Total value of goods produced and services provided in Vanuatu
+indicator_name: ''
 indicator_number: ''
 national_geographical_coverage: Vanuatu
 page_content: >-
+  ## Total value of goods produced and services provided in Vanuatu
+
+
   Gross domestic product (GDP) at constant prices refers to the volume level of
   GDP. Constant price estimates of GDP are obtained by expressing values in
   terms of a base period. In theory, the price and quantity components of a
