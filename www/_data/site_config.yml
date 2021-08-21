@@ -201,8 +201,6 @@ menu:
   - path: /2030-agenda/
     translation_key: USEFUL INFORMATION
     dropdown:
-      - path: /2030-agenda/
-        translation_key: 2030 AGENDA
       - path: /about/
         translation_key: NSPD ONLINE PLATFORM
       - path: /technical-advice/
