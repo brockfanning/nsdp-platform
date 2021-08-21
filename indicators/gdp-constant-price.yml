@@ -24,21 +24,21 @@ indicator_available: ''
 indicator_name: ''
 indicator_number: ''
 national_geographical_coverage: Vanuatu
-page_content: >-
+page_content: >
   ## Total value of goods produced and services provided in Vanuatu
 
-
-  Gross domestic product (GDP) at constant prices refers to the volume level of
-  GDP. Constant price estimates of GDP are obtained by expressing values in
-  terms of a base period. In theory, the price and quantity components of a
-  value are identified and the price in the base period is substituted for that
-  in the current period. Two main methods are adopted in practice. The first,
-  referred to as "quantity revaluation", is based on a methodology consistent
-  with the above theory (i.e., by multiplying the current period quantity by the
-  base period price). The second, commonly referred to as "price deflation",
-  involves dividing price indexes into the observed values to obtain the volume
-  estimate. The price indexes used are built up from the prices of the major
-  items contributing to each value.
+  Data reported in current (or “nominal”) prices for each year are in the value
+  of the currency for that particular year. For example, current price data
+  shown for 2000 are based on 2000 prices, for 2010 are based on 2010 prices,
+  and so on. Constant series show the data for each year in the value of a
+  particular base year. Thus, for example, data reported in constant 2010 prices
+  show data for 1990, 2000, and all other years in 2010 prices. Current series
+  are influenced by the effect of price inflation. Constant series are used to
+  measure the true growth of a series, i.e. adjusting for the effects of price
+  inflation. For example (using year one as the base year), suppose nominal
+  Gross Domestic Product (GDP) rises from 100 billion to 110 billion, and
+  inflation is about 4%. In real prices, the second year GDP would be
+  approximately 106 billion, reflecting its true growth of 6%.
 permalink: ''
 precision: []
 reporting_status: complete
