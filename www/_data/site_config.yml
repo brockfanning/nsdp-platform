@@ -52,6 +52,7 @@ data_fields:
 date_formats: []
 disclaimer:
   phase: Beta
+  message: ''
 email_contacts:
   questions: test@example.com
   suggestions: test@example.com
@@ -239,15 +240,17 @@ remote_data_prefix: _build
 reporting_status:
   title: Reporting Status
   description: >-
-    The reporting status gives you an overview of how many National Sustainable
-    Development Plan indicators (add NSDP link
-    https://www.gov.vu/index.php/resources/vanuatu-2030) of Vanuatu’s 2030
-    People’s Plan can currently be calculated. The time series for the
-    calculation of the indicators are mainly based on data from official
-    statistics, but also use data collected by many other institutions. Where
-    data are available, the indicator is marked as Reported online. If a
-    suitable data source is still being sought for other indicators, these
-    indicators are marked as Exploring data sources.
+    The reporting status gives you an overview of how many [National Sustainable
+    Development Plan
+    Indicators](https://www.gov.vu/index.php/resources/vanuatu-2030) of
+    Vanuatu’s 2030 People’s Plan can currently be calculated. The time series
+    for the calculation of the indicators are mainly based on data from official
+    statistics, but also use data collected by many other institutions. 
+
+
+    Where data are available, the indicator is marked as **Reported online**.
+    When a suitable data source is still being sought for other indicators,
+    these are marked as **Exploring data sources**.
   disaggregation_tabs: false
 repository_url_data: ''
 repository_url_site: ''
