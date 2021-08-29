@@ -155,13 +155,17 @@ logos:
     src: assets/img/logo title.png
     alt: National Development Goals 2030
 map_layers:
-  - subfolder: area-councils
-    label: ''
-    min_zoom: 0
-    max_zoom: 15
+  - subfolder: provinces
+    label: Provinces
+    min_zoom: 6
+    max_zoom: 7
     staticBorders: false
+  - subfolder: area-councils
+    label: Area councils
+    min_zoom: 8
+    max_zoom: 15
 map_options:
-  minZoom: 10
+  minZoom: 6
   maxZoom: 15
   tileURL: ''
   tileOptions:
