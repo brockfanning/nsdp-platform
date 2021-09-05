@@ -1,28 +1,21 @@
-Goal: >-
-  A stable and prosperous economy, encouraging trade, investment and providing
-  economic opportunities for all members of society throughout Vanuatu
-PolicyObjective: Increase access to markets for Vanuatu exports
-Indicator: Balance of trade by major partner countries
-SDGAlignment: 17.11.1
+Proxy: >-
+  No 
 Definition: >-
-  Balance of trade (BOT) is the difference between the value of a country's exports
-  and the value of a country's imports for a given period. Balance of trade is the
-  largest component of a country's balance of payments (BOP). Sometimes the balance
-  of trade betrween a countries goods and the balance of trade between its services
-  are distinguished as two seperate figures
+  Balance of trade is the difference between the value of a country's exports
+  and the value of a country's imports for a given period. 
 Concept: >-
-  Economists use the BOT to measure the relative strength of a country's economy
-Rationale: >-
   A country that imports more goods and services that it exports in terms of value has
   a trade deficit or a negative trade balance. Conversely, a country that exports more
   goods and services than it imports has a trade surplus or a psoitive trade balance.
-MethodComputation: >-
-  The formula for calculating the BOT can be simplified as the total value of exports minus
+Rationale: >-
+  Economists use the Balance of Trade to measure the relative strength of a country's economy.
+MethodOfComputation: >-
+  The formula for calculating the Balance of Trade can be simplified as the total value of exports minus
   the total value of its imports.
-UnitMeasurement: Vatu (VT)
-Disaggregation: Country
-FrequencyOfCollection: Continuous
-DataSource: Customs and Inland Revenue
+UnitOfMeasurement: >-   
+  Millions of Vatu (VT)
+FrequencyOfDataCollection: >- 
+  Continuous
 source_organisation_1: ''
 source_organisation_2: ''
 source_organisation_3: ''
