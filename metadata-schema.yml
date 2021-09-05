@@ -4,100 +4,40 @@
 prose:
   metadata:
     meta:
-      - name: "OverallConcepts"
+      - name: "Proxy"
         field:
             element: text
-            translation_key: "Overall Concepts"
-            scope: national
-      - name: "PillarDescription"
-        field:
-            element: text
-            translation_key: "Pillar Description"
-            scope: national
-      - name: "GoalId"
-        field:
-            element: text
-            translation_key: "Goal Id"
-            scope: national
-      - name: "GoalDescription"
-        field:
-            element: text
-            translation_key: "Goal Description"
-            scope: national
-      - name: "PolicyObjectiveId"
-        field:
-            element: text
-            translation_key: "Policy Objective Id"
-            scope: national
-      - name: "PolicyObjectiveDescription"
-        field:
-            element: text
-            translation_key: "Policy Objective Description"
-            scope: national
-      - name: "IndicatorId"
-        field:
-            element: text
-            translation_key: "Indicator Id"
-            scope: national
-      - name: "IndicatorDescription"
-        field:
-            element: text
-            translation_key: "Indicator Description"
-            scope: national
-      - name: "TargetDescription"
-        field:
-            element: text
-            translation_key: "Target"
-            scope: national
-      - name: "SDGAlignment"
-        field:
-            element: text
-            translation_key: "SDG Alignment"
+            translation_key: "Proxy"
             scope: national
       - name: "Definition"
         field:
             element: text
-            translation_key: metadata_fields.computation_definitions
+            translation_key: "Definition"
             scope: national
       - name: "Concept"
         field:
             element: text
-            translation_key: Concept
+            translation_key: "Concept"
             scope: national
       - name: "Rationale"
         field:
             element: text
-            translation_key: Rationale
+            translation_key: "Rationale"
             scope: national
-      - name: "ComputationMethod"
+      - name: "MethodOfComputation"
         field:
             element: text
-            translation_key: "Computation Method"
+            translation_key: "Method of Computation"
             scope: national
-      - name: "ComputationUnit"
+      - name: "UnitOfMeasurement"
         field:
             element: text
-            translation_key: "Computation Unit"
+            translation_key: "Unit of Measurement"
             scope: national
-      - name: "Proxy"
+      - name: "FrequencyOfDataCollection"
         field:
             element: text
-            translation_key: Proxy
-            scope: national
-      - name: "Disaggregation"
-        field:
-            element: text
-            translation_key: Disaggregation
-            scope: national
-      - name: "DataSource"
-        field:
-            element: text
-            translation_key: "Data Source"
-            scope: national
-      - name: "FrequencyOfCollection"
-        field:
-            element: text
-            translation_key: "Frequency Of Collection"
+            translation_key: "Frequency of Data Collection"
             scope: national
       ## Source 1
       - name: source_active_1
