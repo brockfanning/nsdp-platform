@@ -34,10 +34,10 @@ prose:
             element: text
             translation_key: "Unit of Measurement"
             scope: national
-      - name: "FrequencyOfDataCollection"
+      - name: "FrequencyOfCollection"
         field:
             element: text
-            translation_key: "Frequency of Data Collection"
+            translation_key: "Frequency of Collection"
             scope: national
       ## Source 1
       - name: source_active_1
