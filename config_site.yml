@@ -9,7 +9,7 @@
 # ***************************************************************
 
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
-remote_theme: brockfanning/open-sdg@vanuatu-feature-set
+remote_theme: open-sdg/open-sdg@1.6.0
 
 # Replace this title as needed.
 title: Indicators of The National Sustainable Development Plan
@@ -46,5 +46,5 @@ exclude:
   - README.md
   - LICENSE
   - Makefile
- 
-   
+
+

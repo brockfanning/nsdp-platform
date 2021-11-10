@@ -1,5 +1,5 @@
 # These are the Python requirements for building the data.
 git+https://github.com/dougmet/yamlmd
-git+https://github.com/brockfanning/sdg-build-1@vanuatu-feature-set
+git+https://github.com/brockfanning/sdg-build-1@input-alteration-context
 mysql-connector-python
 openpyxl
